@@ -1,0 +1,563 @@
+{
+    "30": {
+        "ID": 30,
+        "Name": "队伍体能",
+        "Key": "TeamHp",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "35": {
+        "ID": 35,
+        "Name": "队伍体能上限",
+        "Key": "TeamHpMax",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "98": {
+        "ID": 98,
+        "Name": "怒气",
+        "Key": "Fury",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "99": {
+        "ID": 99,
+        "Name": "怒气百分比",
+        "Key": "FuryPer"
+    },
+    "100": {
+        "ID": 100,
+        "Name": "攻击",
+        "Key": "Atk",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "101": {
+        "ID": 101,
+        "Name": "基础攻击",
+        "Key": "AtkBase",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "102": {
+        "ID": 102,
+        "Name": "攻击",
+        "Key": "AtkBasePer"
+    },
+    "103": {
+        "ID": 103,
+        "Name": "攻击",
+        "Key": "AtkModify",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "104": {
+        "ID": 104,
+        "Name": "攻击",
+        "Key": "AtkTotalPer"
+    },
+    "105": {
+        "ID": 105,
+        "Name": "无视防御数值",
+        "Key": "DefsIgnore",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "106": {
+        "ID": 106,
+        "Name": "无视防御比例",
+        "Key": "DefsIgnorePer"
+    },
+    "200": {
+        "ID": 200,
+        "Name": "防御",
+        "Key": "Def",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "201": {
+        "ID": 201,
+        "Name": "基础防御",
+        "Key": "DefBase",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "202": {
+        "ID": 202,
+        "Name": "防御",
+        "Key": "DefBasePer"
+    },
+    "203": {
+        "ID": 203,
+        "Name": "防御",
+        "Key": "DefModify",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "204": {
+        "ID": 204,
+        "Name": "防御",
+        "Key": "DefTotalPer"
+    },
+    "300": {
+        "ID": 300,
+        "Name": "体能",
+        "Key": "Hp",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "301": {
+        "ID": 301,
+        "Name": "基础体能",
+        "Key": "HpBase",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "302": {
+        "ID": 302,
+        "Name": "体能",
+        "Key": "HpBasePer"
+    },
+    "303": {
+        "ID": 303,
+        "Name": "体能",
+        "Key": "HpModify",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "304": {
+        "ID": 304,
+        "Name": "体能百分比",
+        "Key": "HpTotalPer"
+    },
+    "305": {
+        "ID": 305,
+        "Name": "体能上限",
+        "Key": "HpMax",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "306": {
+        "ID": 306,
+        "Name": "体能百分比",
+        "Key": "HpModifyPer"
+    },
+    "400": {
+        "ID": 400,
+        "Name": "暴击率",
+        "Key": "Crit"
+    },
+    "401": {
+        "ID": 401,
+        "Name": "暴击率",
+        "Key": "CritBase"
+    },
+    "402": {
+        "ID": 402,
+        "Name": "暴击率",
+        "Key": "CritBasePer"
+    },
+    "403": {
+        "ID": 403,
+        "Name": "暴击率",
+        "Key": "CritModify"
+    },
+    "404": {
+        "ID": 404,
+        "Name": "暴击率上限",
+        "Key": "CritMax"
+    },
+    "405": {
+        "ID": 405,
+        "Name": "暴击率下限",
+        "Key": "CritMin"
+    },
+    "500": {
+        "ID": 500,
+        "Name": "暴击抵抗",
+        "Key": "Recrit"
+    },
+    "501": {
+        "ID": 501,
+        "Name": "基础暴击抵抗",
+        "Key": "RecritBase"
+    },
+    "600": {
+        "ID": 600,
+        "Name": "暴击增伤",
+        "Key": "Critdam"
+    },
+    "601": {
+        "ID": 601,
+        "Name": "基础暴击增伤",
+        "Key": "CritdamBase"
+    },
+    "602": {
+        "ID": 602,
+        "Name": "基础暴击百分比",
+        "Key": "CritdamBasePer"
+    },
+    "603": {
+        "ID": 603,
+        "Name": "暴击增伤",
+        "Key": "CritdamModify",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "604": {
+        "ID": 604,
+        "Name": "暴击增伤上限",
+        "Key": "CritdamMax"
+    },
+    "605": {
+        "ID": 605,
+        "Name": "暴击增伤下限",
+        "Key": "CritdamMin"
+    },
+    "700": {
+        "ID": 700,
+        "Name": "治疗量",
+        "Key": "Cure",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "701": {
+        "ID": 701,
+        "Name": "基础治疗加成",
+        "Key": "CureEnhanceBase"
+    },
+    "702": {
+        "ID": 702,
+        "Name": "治疗量修正",
+        "Key": "CureModify",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "703": {
+        "ID": 703,
+        "Name": "治疗加成",
+        "Key": "CureEnhance"
+    },
+    "704": {
+        "ID": 704,
+        "Name": "被治疗加成",
+        "Key": "CuredEnhance"
+    },
+    "705": {
+        "ID": 705,
+        "Name": "减疗效果",
+        "Key": "CuredMinus"
+    },
+    "800": {
+        "ID": 800,
+        "Name": "回怒效率",
+        "Key": "Ene"
+    },
+    "801": {
+        "ID": 801,
+        "Name": "怒气恢复效率",
+        "Key": "EneBase"
+    },
+    "802": {
+        "ID": 802,
+        "Name": "怒气恢复修正值",
+        "Key": "EneModify",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "803": {
+        "ID": 803,
+        "Name": "怒气消耗百分比增益",
+        "Key": "ConsumePer"
+    },
+    "804": {
+        "ID": 804,
+        "Name": "怒气消耗修正值",
+        "Key": "ConsumeModify",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "820": {
+        "ID": 820,
+        "Name": "怒气值",
+        "Key": "Fury",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "830": {
+        "ID": 830,
+        "Name": "怒气值上限",
+        "Key": "FuryMax",
+        "NumType": 1
+    },
+    "831": {
+        "ID": 831,
+        "Name": "怒气值上限基础",
+        "Key": "FuryMaxBase",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "832": {
+        "ID": 832,
+        "Name": "怒气值上限基础百分比",
+        "Key": "FuryMaxBasePer"
+    },
+    "833": {
+        "ID": 833,
+        "Name": "怒气值上限修正值",
+        "Key": "FuryMaxBaseModify",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "900": {
+        "ID": 900,
+        "Name": "伤害加深",
+        "Key": "DmgCause"
+    },
+    "901": {
+        "ID": 901,
+        "Name": "全额伤害加深",
+        "Key": "TotalDmgCause"
+    },
+    "902": {
+        "ID": 902,
+        "Name": "物理伤害加深",
+        "Key": "PhysicalDmgCause"
+    },
+    "903": {
+        "ID": 903,
+        "Name": "闪电伤害加深",
+        "Key": "ElectricityDmgCause"
+    },
+    "904": {
+        "ID": 904,
+        "Name": "低温伤害加深",
+        "Key": "ColdDmgCause"
+    },
+    "905": {
+        "ID": 905,
+        "Name": "高温伤害加深",
+        "Key": "HotDmgCause"
+    },
+    "906": {
+        "ID": 906,
+        "Name": "异能伤害加深",
+        "Key": "AbilityDmgCause"
+    },
+    "907": {
+        "ID": 907,
+        "Name": "全额伤害加深",
+        "Key": "TotalDmgCauseModify"
+    },
+    "908": {
+        "ID": 908,
+        "Name": "物理伤害加深",
+        "Key": "PhysicalDmgCauseModify"
+    },
+    "909": {
+        "ID": 909,
+        "Name": "闪电伤害加深",
+        "Key": "ElectricityDmgCauseModify"
+    },
+    "910": {
+        "ID": 910,
+        "Name": "低温伤害加深",
+        "Key": "ColdDmgCauseModify"
+    },
+    "911": {
+        "ID": 911,
+        "Name": "高温伤害加深",
+        "Key": "HotDmgCauseModify"
+    },
+    "912": {
+        "ID": 912,
+        "Name": "异能伤害加深",
+        "Key": "AbilityDmgCauseModify"
+    },
+    "913": {
+        "ID": 913,
+        "Name": "完美连段伤害加深",
+        "Key": "PerfectComboDmgCause"
+    },
+    "1000": {
+        "ID": 1000,
+        "Name": "伤害减免",
+        "Key": "DmgBear"
+    },
+    "1001": {
+        "ID": 1001,
+        "Name": "全额伤害减免",
+        "Key": "TotalDmgBear"
+    },
+    "1002": {
+        "ID": 1002,
+        "Name": "物理伤害减免",
+        "Key": "PhysicalDmgBear"
+    },
+    "1003": {
+        "ID": 1003,
+        "Name": "闪电伤害减免",
+        "Key": "ElectricityDmgBear"
+    },
+    "1004": {
+        "ID": 1004,
+        "Name": "低温伤害减免",
+        "Key": "ColdDmgBear"
+    },
+    "1005": {
+        "ID": 1005,
+        "Name": "高温伤害减免",
+        "Key": "HotDmgBear"
+    },
+    "1006": {
+        "ID": 1006,
+        "Name": "异能伤害减免",
+        "Key": "AbilityDmgBear"
+    },
+    "1007": {
+        "ID": 1007,
+        "Name": "全额伤害减免",
+        "Key": "TotalDmgBearModify"
+    },
+    "1008": {
+        "ID": 1008,
+        "Name": "物理伤害减免",
+        "Key": "PhysicalDmgBearModify"
+    },
+    "1009": {
+        "ID": 1009,
+        "Name": "闪电伤害减免",
+        "Key": "ElectricityDmgBearModify"
+    },
+    "1010": {
+        "ID": 1010,
+        "Name": "低温伤害减免",
+        "Key": "ColdDmgBearModify"
+    },
+    "1011": {
+        "ID": 1011,
+        "Name": "高温伤害减免",
+        "Key": "HotDmgBearModify"
+    },
+    "1012": {
+        "ID": 1012,
+        "Name": "异能伤害减免",
+        "Key": "AbilityDmgBearModify"
+    },
+    "1100": {
+        "ID": 1100,
+        "Name": "护甲值",
+        "Key": "Break",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "1101": {
+        "ID": 1101,
+        "Name": "护甲值上限",
+        "Key": "BreakMax",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "1102": {
+        "ID": 1102,
+        "Name": "护甲回复速度",
+        "Key": "BreakSpeed",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "1103": {
+        "ID": 1103,
+        "Name": "击破回复间隔",
+        "Key": "BreakTime",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "1104": {
+        "ID": 1104,
+        "Name": "破甲效率",
+        "Key": "BreakRate"
+    },
+    "1105": {
+        "ID": 1105,
+        "Name": "抗破甲率",
+        "Key": "ReBreakRate"
+    },
+    "1106": {
+        "ID": 1106,
+        "Name": "破甲倍率",
+        "Key": "BreakDam"
+    },
+    "1200": {
+        "ID": 1200,
+        "Name": "体力上限",
+        "Key": "StaminaMax",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "1201": {
+        "ID": 1201,
+        "Name": "体力",
+        "Key": "Stamina",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "1202": {
+        "ID": 1202,
+        "Name": "基础体力",
+        "Key": "StaminaBase",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "1203": {
+        "ID": 1203,
+        "Name": "体力消耗",
+        "Key": "StaminaConsume",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "1204": {
+        "ID": 1204,
+        "Name": "体力恢复",
+        "Key": "StaminaRecover",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "1301": {
+        "ID": 1301,
+        "Name": "突破天赋点",
+        "Key": "BreakPoint",
+        "NumType": 1,
+        "NumDecimal": 0,
+        "Icon": "T_Item10001",
+        "Desc": "<MI_L_18B>该助手拥有的天赋点数，用于激活特定天赋</>"
+    },
+    "1302": {
+        "ID": 1302,
+        "Name": "潜能天赋点",
+        "Key": "PotentialPoint",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
+    "1400": {
+        "ID": 1400,
+        "Name": "暴击增伤抵抗",
+        "Key": "Recritdam"
+    },
+    "1401": {
+        "ID": 1401,
+        "Name": "基础暴击增伤抵抗",
+        "Key": "RecritdamBase"
+    },
+    "1501": {
+        "ID": 1501,
+        "Name": "技能冷却百分比增益",
+        "Key": "CDPer"
+    },
+    "1502": {
+        "ID": 1502,
+        "Name": "技能冷却修正值",
+        "Key": "CDModify",
+        "NumType": 1,
+        "NumDecimal": 0
+    }
+}

@@ -1,0 +1,5972 @@
+{
+    "1": {
+        "ID": 1,
+        "Name": "硅晶",
+        "Label": 1,
+        "LabelName": "珍贵货币",
+        "Icon": "T_Item1",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>永恒之河深处孕育出的神秘硅石，拥有纯粹而丰沛的数字力量。不少人认为它来自母神的神骸，因此一度成为收藏家们竞相追逐的“神迹”</>",
+        "Stack": 9999999999,
+        "Max": 9999999999
+    },
+    "2": {
+        "ID": 2,
+        "Name": "钛壳币",
+        "Label": 2,
+        "LabelName": "通用货币",
+        "Icon": "T_Item2",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>善见城最常见的高价值虚拟货币，其无与伦比的稳定性与广泛的用途使其超越了一般意义上的虚拟货币，成为与旧世纪的黄金类似的贵重等价物。相较于币值每分钟都在波动的天元券，钛壳币在现实世界的大部分交易场合更受欢迎。</>\n<Text_3_B>虽然天人议会不愿意承认，但在善见城，虚拟货币确实比实在的钞票更加靠谱。</>",
+        "Stack": 9999999999,
+        "Max": 9999999999
+    },
+    "3": {
+        "ID": 3,
+        "Name": "侦探经验",
+        "Label": 3,
+        "LabelName": "侦探经验",
+        "Icon": "T_Item3",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>侦探等级提升的依据。</>\n<Text_3_B>「三年升高级，五载上资深」，经验是时光给你最宝贵的馈赠——当然工龄也算。</>",
+        "Stack": 9999999999,
+        "Max": 9999999999
+    },
+    "4": {
+        "ID": 4,
+        "Name": "支援模块",
+        "Label": 4,
+        "LabelName": "支援模块",
+        "Icon": "T_Item4",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>用于激活和提升支援技能</>\n<Text_3_B>监督学习模块、S/L单元，还有其他三十多种格式的文件供你学习，在未来某一个场景的你一定会感谢自己此刻的付出。</>",
+        "Stack": 9999999999,
+        "Max": 9999999999
+    },
+    "101": {
+        "ID": 101,
+        "Name": "数字货币",
+        "Label": 11,
+        "LabelName": "深潜货币",
+        "Icon": "T_Item101",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>赛博空间中广泛存在和流通的各类虚拟密码货币的总称，虽然从诞生之日起就不受议会中央银行的承认，但在赛博黑市中，它们仍然是深潜者们最常用的支付、存储和交易的等价物。</>\n<Text_3_B>不要尝试在商场里使用它结账。</>",
+        "Stack": 9999999999,
+        "Max": 9999999999
+    },
+    "1001": {
+        "ID": 1001,
+        "Name": "实战数据卡I",
+        "Label": 401,
+        "LabelName": "助手经验",
+        "Icon": "T_Item1001",
+        "Group": 0,
+        "Quality": 2,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 401
+    },
+    "1002": {
+        "ID": 1002,
+        "Name": "实战数据卡II",
+        "Label": 401,
+        "LabelName": "助手经验",
+        "Icon": "T_Item1002",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 401
+    },
+    "1003": {
+        "ID": 1003,
+        "Name": "实战数据卡III",
+        "Label": 401,
+        "LabelName": "助手经验",
+        "Icon": "T_Item1003",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 401
+    },
+    "1011": {
+        "ID": 1011,
+        "Name": "基因数据卡I",
+        "Label": 402,
+        "LabelName": "记忆体经验",
+        "Icon": "T_Item1011",
+        "Group": 0,
+        "Quality": 2,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 402
+    },
+    "1012": {
+        "ID": 1012,
+        "Name": "基因数据卡II",
+        "Label": 402,
+        "LabelName": "记忆体经验",
+        "Icon": "T_Item1012",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 402
+    },
+    "1013": {
+        "ID": 1013,
+        "Name": "基因数据卡III",
+        "Label": 402,
+        "LabelName": "记忆体经验",
+        "Icon": "T_Item1012",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 402
+    },
+    "1081": {
+        "ID": 1081,
+        "Name": "残次品·矩阵硅核",
+        "Label": 403,
+        "LabelName": "助手突破材料",
+        "Icon": "T_Item1081",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>矩阵硅核是所有古神眷族体内必然存在的数据载体，相当于智械生物的“心脏”——当矩阵硅核被剥离、或受到破坏，古神眷族也会立即失去对机械躯体的控制能力。帝国统治时期，矩阵硅核因其天然的稀有程度，一度作为国家法定货币存在</>",
+        "Stack": 9999,
+        "Max": 99999999
+    },
+    "1082": {
+        "ID": 1082,
+        "Name": "及格品·矩阵硅核",
+        "Label": 403,
+        "LabelName": "助手突破材料",
+        "Icon": "T_Item1082",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>矩阵硅核是所有古神眷族体内必然存在的数据载体，相当于智械生物的“心脏”——当矩阵硅核被剥离、或受到破坏，古神眷族也会立即失去对机械躯体的控制能力。帝国统治时期，矩阵硅核因其天然的稀有程度，一度作为国家法定货币存在</>",
+        "Stack": 9999,
+        "Max": 99999999
+    },
+    "1083": {
+        "ID": 1083,
+        "Name": "矩阵硅核",
+        "Label": 403,
+        "LabelName": "助手突破材料",
+        "Icon": "T_Item1083",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>矩阵硅核是所有古神眷族体内必然存在的数据载体，相当于智械生物的“心脏”——当矩阵硅核被剥离、或受到破坏，古神眷族也会立即失去对机械躯体的控制能力。帝国统治时期，矩阵硅核因其天然的稀有程度，一度作为国家法定货币存在</>",
+        "Stack": 9999,
+        "Max": 99999999
+    },
+    "1101": {
+        "ID": 1101,
+        "Name": "进化血清·增压I",
+        "Label": 405,
+        "LabelName": "助手突破材料",
+        "Icon": "T_Item1101",
+        "Group": 0,
+        "Quality": 2,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>一种强力的生物制剂，能够帮助物理系助手提升能力，是神经化学当前的最高杰作之一</>",
+        "Stack": 9999,
+        "Max": 99999999
+    },
+    "1102": {
+        "ID": 1102,
+        "Name": "进化血清·增压II",
+        "Label": 405,
+        "LabelName": "助手突破材料",
+        "Icon": "T_Item1102",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>一种强力的生物制剂，能够帮助物理系助手提升能力，是神经化学当前的最高杰作之一</>",
+        "Stack": 9999,
+        "Max": 99999999
+    },
+    "1103": {
+        "ID": 1103,
+        "Name": "进化血清·增压III",
+        "Label": 405,
+        "LabelName": "助手突破材料",
+        "Icon": "T_Item1103",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>一种强力的生物制剂，能够帮助物理系助手提升能力，是神经化学当前的最高杰作之一</>",
+        "Stack": 9999,
+        "Max": 99999999
+    },
+    "1104": {
+        "ID": 1104,
+        "Name": "进化血清·升温I",
+        "Label": 405,
+        "LabelName": "助手突破材料",
+        "Icon": "T_Item1104",
+        "Group": 0,
+        "Quality": 2,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>一种强力的生物制剂，能够帮助火系助手提升能力，是神经化学当前的最高杰作之一</>",
+        "Stack": 9999,
+        "Max": 99999999
+    },
+    "1105": {
+        "ID": 1105,
+        "Name": "进化血清·升温II",
+        "Label": 405,
+        "LabelName": "助手突破材料",
+        "Icon": "T_Item1105",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>一种强力的生物制剂，能够帮助火系助手提升能力，是神经化学当前的最高杰作之一</>",
+        "Stack": 9999,
+        "Max": 99999999
+    },
+    "1106": {
+        "ID": 1106,
+        "Name": "进化血清·升温III",
+        "Label": 405,
+        "LabelName": "助手突破材料",
+        "Icon": "T_Item1106",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>一种强力的生物制剂，能够帮助火系助手提升能力，是神经化学当前的最高杰作之一</>",
+        "Stack": 9999,
+        "Max": 99999999
+    },
+    "1107": {
+        "ID": 1107,
+        "Name": "进化血清·冷凝I",
+        "Label": 405,
+        "LabelName": "助手突破材料",
+        "Icon": "T_Item1107",
+        "Group": 0,
+        "Quality": 2,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>一种强力的生物制剂，能够帮助冰系助手提升能力，是神经化学当前的最高杰作之一</>",
+        "Stack": 9999,
+        "Max": 99999999
+    },
+    "1108": {
+        "ID": 1108,
+        "Name": "进化血清·冷凝II",
+        "Label": 405,
+        "LabelName": "助手突破材料",
+        "Icon": "T_Item1108",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>一种强力的生物制剂，能够帮助冰系助手提升能力，是神经化学当前的最高杰作之一</>",
+        "Stack": 9999,
+        "Max": 99999999
+    },
+    "1109": {
+        "ID": 1109,
+        "Name": "进化血清·冷凝III",
+        "Label": 405,
+        "LabelName": "助手突破材料",
+        "Icon": "T_Item1109",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>一种强力的生物制剂，能够帮助冰系助手提升能力，是神经化学当前的最高杰作之一</>",
+        "Stack": 9999,
+        "Max": 99999999
+    },
+    "1110": {
+        "ID": 1110,
+        "Name": "进化血清·磁化I",
+        "Label": 405,
+        "LabelName": "助手突破材料",
+        "Icon": "T_Item1110",
+        "Group": 0,
+        "Quality": 2,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>一种强力的生物制剂，能够帮助电系助手提升能力，是神经化学当前的最高杰作之一</>",
+        "Stack": 9999,
+        "Max": 99999999
+    },
+    "1111": {
+        "ID": 1111,
+        "Name": "进化血清·磁化II",
+        "Label": 405,
+        "LabelName": "助手突破材料",
+        "Icon": "T_Item1111",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>一种强力的生物制剂，能够帮助电系助手提升能力，是神经化学当前的最高杰作之一</>",
+        "Stack": 9999,
+        "Max": 99999999
+    },
+    "1112": {
+        "ID": 1112,
+        "Name": "进化血清·磁化III",
+        "Label": 405,
+        "LabelName": "助手突破材料",
+        "Icon": "T_Item1112",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>一种强力的生物制剂，能够帮助电系助手提升能力，是神经化学当前的最高杰作之一</>",
+        "Stack": 9999,
+        "Max": 99999999
+    },
+    "1113": {
+        "ID": 1113,
+        "Name": "进化血清·变异I",
+        "Label": 405,
+        "LabelName": "助手突破材料",
+        "Icon": "T_Item1113",
+        "Group": 0,
+        "Quality": 2,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>一种强力的生物制剂，能够帮助异能系助手提升能力，是神经化学当前的最高杰作之一</>",
+        "Stack": 9999,
+        "Max": 99999999
+    },
+    "1114": {
+        "ID": 1114,
+        "Name": "进化血清·变异II",
+        "Label": 405,
+        "LabelName": "助手突破材料",
+        "Icon": "T_Item1114",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>一种强力的生物制剂，能够帮助异能系助手提升能力，是神经化学当前的最高杰作之一</>",
+        "Stack": 9999,
+        "Max": 99999999
+    },
+    "1115": {
+        "ID": 1115,
+        "Name": "进化血清·变异III",
+        "Label": 405,
+        "LabelName": "助手突破材料",
+        "Icon": "T_Item1115",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>一种强力的生物制剂，能够帮助异能系助手提升能力，是神经化学当前的最高杰作之一</>",
+        "Stack": 9999,
+        "Max": 99999999
+    },
+    "1201": {
+        "ID": 1201,
+        "Name": "行动许可",
+        "Label": 405,
+        "LabelName": "行动力补充",
+        "Icon": "T_Item1201",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 501
+    },
+    "1202": {
+        "ID": 1202,
+        "Name": "侦探经验",
+        "Label": 3,
+        "LabelName": "侦探经验",
+        "Icon": "T_Item3",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>侦探等级提升的依据</>",
+        "UseType": 3,
+        "DestroyType": 2,
+        "Stack": 9999999999,
+        "Max": 9999999999
+    },
+    "1203": {
+        "ID": 1203,
+        "Name": "周活跃度",
+        "Label": 400,
+        "LabelName": "周活跃度",
+        "Icon": "T_Item1203",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 502
+    },
+    "1211": {
+        "ID": 1211,
+        "Name": "宝箱",
+        "Label": 406,
+        "LabelName": "宝箱",
+        "Icon": "T_Item1211",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 601
+    },
+    "1221": {
+        "ID": 1221,
+        "Name": "3星芯片",
+        "Label": 407,
+        "LabelName": "宝箱",
+        "Icon": "T_Item1221",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 601
+    },
+    "1222": {
+        "ID": 1222,
+        "Name": "4星芯片",
+        "Label": 407,
+        "LabelName": "宝箱",
+        "Icon": "T_Item1222",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 601
+    },
+    "1223": {
+        "ID": 1223,
+        "Name": "5星芯片",
+        "Label": 407,
+        "LabelName": "宝箱",
+        "Icon": "T_Item1223",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 601
+    },
+    "1231": {
+        "ID": 1231,
+        "Name": "3星记忆体",
+        "Label": 408,
+        "LabelName": "宝箱",
+        "Icon": "T_Item1211",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 601
+    },
+    "1232": {
+        "ID": 1232,
+        "Name": "4星记忆体",
+        "Label": 408,
+        "LabelName": "宝箱",
+        "Icon": "T_Item1211",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 601
+    },
+    "1233": {
+        "ID": 1233,
+        "Name": "5星记忆体",
+        "Label": 408,
+        "LabelName": "宝箱",
+        "Icon": "T_Item1211",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 601
+    },
+    "1241": {
+        "ID": 1241,
+        "Name": "礼物",
+        "Label": 409,
+        "LabelName": "宝箱",
+        "Icon": "T_Item1211",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 601
+    },
+    "2001": {
+        "ID": 2001,
+        "Name": "学习单元",
+        "Label": 5,
+        "LabelName": "学习单元",
+        "Icon": "T_Item2001",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>用于激活和提升通用能力技能</>",
+        "Stack": 9999999999,
+        "Max": 9999999999
+    },
+    "2002": {
+        "ID": 2002,
+        "Name": "复用单元",
+        "Label": 3,
+        "LabelName": "复用单元",
+        "Icon": "T_Item2002",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>用于激活和提升通用能力技能</>",
+        "UseType": 3,
+        "Stack": 9999999999,
+        "Max": 9999999999
+    },
+    "3001": {
+        "ID": 3001,
+        "Name": "标准密钥",
+        "Label": 91,
+        "LabelName": "密钥",
+        "Icon": "T_Item3001",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>全频段呼叫的标准级密钥</>",
+        "Stack": 9999999999,
+        "Max": 9999999999
+    },
+    "3002": {
+        "ID": 3002,
+        "Name": "定向密钥",
+        "Label": 92,
+        "LabelName": "密钥",
+        "Icon": "T_Item3002",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>专门在某些频段呼叫的高密级密钥</>",
+        "Stack": 9999999999,
+        "Max": 9999999999
+    },
+    "3011": {
+        "ID": 3011,
+        "Name": "通用数据点",
+        "Label": 93,
+        "LabelName": "数据点",
+        "Icon": "T_Item3011",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>赛博侦探事务所名声的积累</>",
+        "Stack": 9999999999,
+        "Max": 9999999999
+    },
+    "3012": {
+        "ID": 3012,
+        "Name": "核心数据点",
+        "Label": 94,
+        "LabelName": "数据点",
+        "Icon": "T_Item3012",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>赛博侦探事务所信誉的积累</>",
+        "Stack": 9999999999,
+        "Max": 9999999999
+    },
+    "3100": {
+        "ID": 3100,
+        "Name": "月卡",
+        "Label": 400,
+        "LabelName": "月卡",
+        "Icon": "T_Item1201",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>获得后自动使用，增加30天的月卡持续时间</>",
+        "UseType": 3,
+        "Stack": 9999999999,
+        "Max": 9999999999
+    },
+    "10001": {
+        "ID": 10001,
+        "Name": "源代码",
+        "Label": 0,
+        "Icon": "T_Item10001",
+        "Group": 0,
+        "Quality": 3,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>以母神文字构建的古老指令，需要通过编译转化为人类可适用的[神力代码]</>",
+        "Stack": 9999,
+        "Max": 99999999,
+        "BP": "BP_TestItem",
+        "DropEffect": "NS_gold"
+    },
+    "19811": {
+        "ID": 19811,
+        "Name": "测试-加冲刺体力上限",
+        "Label": 0,
+        "Icon": "T_Item10921",
+        "Group": 1981,
+        "Quality": 1
+    },
+    "19812": {
+        "ID": 19812,
+        "Name": "测试-加冲刺体力上限",
+        "Label": 0,
+        "Icon": "T_Item10922",
+        "Group": 1981,
+        "Quality": 1
+    },
+    "19813": {
+        "ID": 19813,
+        "Name": "测试-加冲刺体力上限",
+        "Label": 0,
+        "Icon": "T_Item10923",
+        "Group": 1981,
+        "Quality": 1
+    },
+    "19814": {
+        "ID": 19814,
+        "Name": "测试-加冲刺体力上限",
+        "Label": 0,
+        "Icon": "T_Item10924",
+        "Group": 1981,
+        "Quality": 1
+    },
+    "19815": {
+        "ID": 19815,
+        "Name": "测试-减冲刺体力上限",
+        "Label": 0,
+        "Icon": "T_Item10925",
+        "Group": 1981,
+        "Quality": 1
+    },
+    "19816": {
+        "ID": 19816,
+        "Name": "测试-减冲刺体力上限",
+        "Label": 0,
+        "Icon": "T_Item10931",
+        "Group": 1981,
+        "Quality": 1
+    },
+    "19817": {
+        "ID": 19817,
+        "Name": "测试-减冲刺体力上限",
+        "Label": 0,
+        "Icon": "T_Item10932",
+        "Group": 1981,
+        "Quality": 1
+    },
+    "19818": {
+        "ID": 19818,
+        "Name": "测试-减冲刺体力上限",
+        "Label": 0,
+        "Icon": "T_Item10933",
+        "Group": 1981,
+        "Quality": 1
+    },
+    "19911": {
+        "ID": 19911,
+        "Name": "测试-复活A",
+        "Label": 0,
+        "Icon": "T_Item10921",
+        "Group": 1991,
+        "Quality": 1,
+        "Type": 104
+    },
+    "19921": {
+        "ID": 19921,
+        "Name": "测试-复活A",
+        "Label": 0,
+        "Icon": "T_Item10922",
+        "Group": 1992,
+        "Quality": 1,
+        "Type": 104
+    },
+    "19931": {
+        "ID": 19931,
+        "Name": "测试-复活B1",
+        "Label": 0,
+        "Icon": "T_Item10923",
+        "Group": 1993,
+        "Quality": 1,
+        "Type": 104
+    },
+    "19932": {
+        "ID": 19932,
+        "Name": "测试-复活B2",
+        "Label": 0,
+        "Icon": "T_Item10924",
+        "Group": 1993,
+        "Quality": 1,
+        "Type": 104
+    },
+    "19941": {
+        "ID": 19941,
+        "Name": "函数-数据重置",
+        "Label": 0,
+        "Icon": "T_Item10925",
+        "Group": 1994,
+        "Quality": 1,
+        "Type": 104
+    },
+    "19944": {
+        "ID": 19944,
+        "Name": "1刀回满技能点",
+        "Label": 0,
+        "Icon": "T_Item10931",
+        "Group": 1994,
+        "Quality": 3
+    },
+    "19955": {
+        "ID": 19955,
+        "Name": "角色霸体无敌",
+        "Label": 0,
+        "Icon": "T_Item10932",
+        "Group": 1995,
+        "Quality": 3
+    },
+    "19966": {
+        "ID": 19966,
+        "Name": "角色免伤",
+        "Label": 0,
+        "Icon": "T_Item10933",
+        "Group": 1996,
+        "Quality": 3
+    },
+    "19977": {
+        "ID": 19977,
+        "Name": "怪物免伤",
+        "Label": 0,
+        "Icon": "T_Item10921",
+        "Group": 1997,
+        "Quality": 3
+    },
+    "19988": {
+        "ID": 19988,
+        "Name": "怒气0消耗",
+        "Label": 0,
+        "Icon": "T_Item10922",
+        "Group": 1998,
+        "Quality": 3
+    },
+    "19997": {
+        "ID": 19997,
+        "Name": "回满血",
+        "Label": 0,
+        "Icon": "T_Item10923",
+        "Group": 1999,
+        "Quality": 3
+    },
+    "19998": {
+        "ID": 19998,
+        "Name": "一刀破甲",
+        "Label": 0,
+        "Icon": "T_Item10924",
+        "Group": 1999,
+        "Quality": 3
+    },
+    "19999": {
+        "ID": 19999,
+        "Name": "一刀999",
+        "Label": 0,
+        "Icon": "T_Item10925",
+        "Group": 1999,
+        "Quality": 3
+    },
+    "22001": {
+        "ID": 22001,
+        "Name": "焦耳·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22002": {
+        "ID": 22002,
+        "Name": "赫兹·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22002",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22003": {
+        "ID": 22003,
+        "Name": "薛定谔·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22003",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22004": {
+        "ID": 22004,
+        "Name": "安培·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22004",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22005": {
+        "ID": 22005,
+        "Name": "牛顿·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22005",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22006": {
+        "ID": 22006,
+        "Name": "欧姆·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22007": {
+        "ID": 22007,
+        "Name": "瓦特·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22007",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22008": {
+        "ID": 22008,
+        "Name": "海森堡·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22009": {
+        "ID": 22009,
+        "Name": "普朗克·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22010": {
+        "ID": 22010,
+        "Name": "麦克斯韦·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22010",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22011": {
+        "ID": 22011,
+        "Name": "洛伦兹·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22011",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22012": {
+        "ID": 22012,
+        "Name": "玻尔·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22012",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22013": {
+        "ID": 22013,
+        "Name": "开尔文·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22013",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22014": {
+        "ID": 22014,
+        "Name": "阿基米德·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22015": {
+        "ID": 22015,
+        "Name": "丁达尔·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22016": {
+        "ID": 22016,
+        "Name": "图灵·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22016",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22017": {
+        "ID": 22017,
+        "Name": "法拉第·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22017",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22018": {
+        "ID": 22018,
+        "Name": "爱因斯坦·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22018",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22019": {
+        "ID": 22019,
+        "Name": "多普勒·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22019",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22020": {
+        "ID": 22020,
+        "Name": "开普勒·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22021": {
+        "ID": 22021,
+        "Name": "欧几里得·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22022": {
+        "ID": 22022,
+        "Name": "温伯格·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22022",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22023": {
+        "ID": 22023,
+        "Name": "卢瑟福·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22024": {
+        "ID": 22024,
+        "Name": "达伦·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22024",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22025": {
+        "ID": 22025,
+        "Name": "韦伯·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22026": {
+        "ID": 22026,
+        "Name": "马赫·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22026",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22027": {
+        "ID": 22027,
+        "Name": "伦琴·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22027",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22028": {
+        "ID": 22028,
+        "Name": "拉格朗日·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22029": {
+        "ID": 22029,
+        "Name": "库伦·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22029",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22030": {
+        "ID": 22030,
+        "Name": "富兰克林·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22030",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22031": {
+        "ID": 22031,
+        "Name": "卡文迪许·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22031",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22032": {
+        "ID": 22032,
+        "Name": "笛卡尔·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22033": {
+        "ID": 22033,
+        "Name": "傅立叶·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22034": {
+        "ID": 22034,
+        "Name": "狄拉克·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22034",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22035": {
+        "ID": 22035,
+        "Name": "玻恩·甜品级",
+        "Label": 200,
+        "LabelName": "芯片",
+        "Icon": "T_Item22035",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22101": {
+        "ID": 22101,
+        "Name": "焦耳·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22102": {
+        "ID": 22102,
+        "Name": "赫兹·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22002",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22103": {
+        "ID": 22103,
+        "Name": "薛定谔·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22003",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22104": {
+        "ID": 22104,
+        "Name": "安培·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22004",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22105": {
+        "ID": 22105,
+        "Name": "牛顿·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22005",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22106": {
+        "ID": 22106,
+        "Name": "欧姆·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22107": {
+        "ID": 22107,
+        "Name": "瓦特·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22007",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22108": {
+        "ID": 22108,
+        "Name": "海森堡·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22109": {
+        "ID": 22109,
+        "Name": "普朗克·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22110": {
+        "ID": 22110,
+        "Name": "麦克斯韦·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22010",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22111": {
+        "ID": 22111,
+        "Name": "洛伦兹·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22011",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22112": {
+        "ID": 22112,
+        "Name": "玻尔·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22012",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22113": {
+        "ID": 22113,
+        "Name": "开尔文·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22013",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22114": {
+        "ID": 22114,
+        "Name": "阿基米德·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22115": {
+        "ID": 22115,
+        "Name": "丁达尔·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22116": {
+        "ID": 22116,
+        "Name": "图灵·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22016",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22117": {
+        "ID": 22117,
+        "Name": "法拉第·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22017",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22118": {
+        "ID": 22118,
+        "Name": "爱因斯坦·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22018",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22119": {
+        "ID": 22119,
+        "Name": "多普勒·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22019",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22120": {
+        "ID": 22120,
+        "Name": "开普勒·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22121": {
+        "ID": 22121,
+        "Name": "欧几里得·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22122": {
+        "ID": 22122,
+        "Name": "温伯格·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22022",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22123": {
+        "ID": 22123,
+        "Name": "卢瑟福·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22124": {
+        "ID": 22124,
+        "Name": "达伦·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22024",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22125": {
+        "ID": 22125,
+        "Name": "韦伯·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22126": {
+        "ID": 22126,
+        "Name": "马赫·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22026",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22127": {
+        "ID": 22127,
+        "Name": "伦琴·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22027",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22128": {
+        "ID": 22128,
+        "Name": "拉格朗日·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22129": {
+        "ID": 22129,
+        "Name": "库伦·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22029",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22130": {
+        "ID": 22130,
+        "Name": "富兰克林·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22030",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22131": {
+        "ID": 22131,
+        "Name": "卡文迪许·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22031",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22132": {
+        "ID": 22132,
+        "Name": "笛卡尔·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22133": {
+        "ID": 22133,
+        "Name": "傅立叶·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22134": {
+        "ID": 22134,
+        "Name": "狄拉克·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22034",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22135": {
+        "ID": 22135,
+        "Name": "玻恩·性能级",
+        "Label": 210,
+        "LabelName": "芯片",
+        "Icon": "T_Item22035",
+        "Group": 0,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22201": {
+        "ID": 22201,
+        "Name": "焦耳·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22202": {
+        "ID": 22202,
+        "Name": "赫兹·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22002",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22203": {
+        "ID": 22203,
+        "Name": "薛定谔·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22003",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22204": {
+        "ID": 22204,
+        "Name": "安培·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22004",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22205": {
+        "ID": 22205,
+        "Name": "牛顿·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22005",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22206": {
+        "ID": 22206,
+        "Name": "欧姆·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22207": {
+        "ID": 22207,
+        "Name": "瓦特·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22007",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22208": {
+        "ID": 22208,
+        "Name": "海森堡·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22209": {
+        "ID": 22209,
+        "Name": "普朗克·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22210": {
+        "ID": 22210,
+        "Name": "麦克斯韦·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22010",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22211": {
+        "ID": 22211,
+        "Name": "洛伦兹·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22011",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22212": {
+        "ID": 22212,
+        "Name": "玻尔·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22012",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22213": {
+        "ID": 22213,
+        "Name": "开尔文·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22013",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22214": {
+        "ID": 22214,
+        "Name": "阿基米德·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22215": {
+        "ID": 22215,
+        "Name": "丁达尔·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22216": {
+        "ID": 22216,
+        "Name": "图灵·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22016",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22217": {
+        "ID": 22217,
+        "Name": "法拉第·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22017",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22218": {
+        "ID": 22218,
+        "Name": "爱因斯坦·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22018",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22219": {
+        "ID": 22219,
+        "Name": "多普勒·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22019",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22220": {
+        "ID": 22220,
+        "Name": "开普勒·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22221": {
+        "ID": 22221,
+        "Name": "欧几里得·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22222": {
+        "ID": 22222,
+        "Name": "温伯格·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22022",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22223": {
+        "ID": 22223,
+        "Name": "卢瑟福·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22224": {
+        "ID": 22224,
+        "Name": "达伦·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22024",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22225": {
+        "ID": 22225,
+        "Name": "韦伯·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22226": {
+        "ID": 22226,
+        "Name": "马赫·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22026",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22227": {
+        "ID": 22227,
+        "Name": "伦琴·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22027",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22228": {
+        "ID": 22228,
+        "Name": "拉格朗日·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22229": {
+        "ID": 22229,
+        "Name": "库伦·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22029",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22230": {
+        "ID": 22230,
+        "Name": "富兰克林·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22030",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22231": {
+        "ID": 22231,
+        "Name": "卡文迪许·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22031",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22232": {
+        "ID": 22232,
+        "Name": "笛卡尔·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22233": {
+        "ID": 22233,
+        "Name": "傅立叶·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22234": {
+        "ID": 22234,
+        "Name": "狄拉克·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22034",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "22235": {
+        "ID": 22235,
+        "Name": "玻恩·旗舰级",
+        "Label": 220,
+        "LabelName": "芯片",
+        "Icon": "T_Item22035",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 4,
+        "Tag": 0,
+        "Type": 202
+    },
+    "23001": {
+        "ID": 23001,
+        "Name": "惊鸿一瞥Ⅲ",
+        "Label": 101,
+        "LabelName": "记忆体",
+        "Icon": "T_Item23001",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "23002": {
+        "ID": 23002,
+        "Name": "不要回头Ⅲ",
+        "Label": 102,
+        "LabelName": "记忆体",
+        "Icon": "T_Item23002",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "23003": {
+        "ID": 23003,
+        "Name": "拙劣模仿Ⅲ",
+        "Label": 103,
+        "LabelName": "记忆体",
+        "Icon": "T_Item23003",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "23004": {
+        "ID": 23004,
+        "Name": "忧惧天蛾Ⅲ",
+        "Label": 104,
+        "LabelName": "记忆体",
+        "Icon": "T_Item23004",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "23005": {
+        "ID": 23005,
+        "Name": "伺机之蛛Ⅲ",
+        "Label": 105,
+        "LabelName": "记忆体",
+        "Icon": "T_Item23005",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "23006": {
+        "ID": 23006,
+        "Name": "挣扎海螺Ⅲ",
+        "Label": 106,
+        "LabelName": "记忆体",
+        "Icon": "T_Item23006",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "24001": {
+        "ID": 24001,
+        "Name": "参商永隔Ⅳ",
+        "Label": 101,
+        "LabelName": "记忆体",
+        "Icon": "T_Item24001",
+        "Group": 0,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "24002": {
+        "ID": 24002,
+        "Name": "完美演讲Ⅳ",
+        "Label": 102,
+        "LabelName": "记忆体",
+        "Icon": "T_Item24002",
+        "Group": 0,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "24003": {
+        "ID": 24003,
+        "Name": "幸运天火Ⅳ",
+        "Label": 103,
+        "LabelName": "记忆体",
+        "Icon": "T_Item24003",
+        "Group": 0,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "24004": {
+        "ID": 24004,
+        "Name": "冰下的声音Ⅳ",
+        "Label": 104,
+        "LabelName": "记忆体",
+        "Icon": "T_Item24004",
+        "Group": 0,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "24005": {
+        "ID": 24005,
+        "Name": "童年的暴雨Ⅳ",
+        "Label": 105,
+        "LabelName": "记忆体",
+        "Icon": "T_Item24005",
+        "Group": 0,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "25001": {
+        "ID": 25001,
+        "Name": "参商永隔Ⅴ",
+        "Label": 101,
+        "LabelName": "记忆体",
+        "Icon": "T_Item25001",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "25002": {
+        "ID": 25002,
+        "Name": "完美演讲Ⅴ",
+        "Label": 102,
+        "LabelName": "记忆体",
+        "Icon": "T_Item25002",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "25003": {
+        "ID": 25003,
+        "Name": "幸运天火Ⅴ",
+        "Label": 103,
+        "LabelName": "记忆体",
+        "Icon": "T_Item25003",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "25004": {
+        "ID": 25004,
+        "Name": "冰下的声音Ⅴ",
+        "Label": 104,
+        "LabelName": "记忆体",
+        "Icon": "T_Item25004",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "25005": {
+        "ID": 25005,
+        "Name": "童年的暴雨Ⅴ",
+        "Label": 105,
+        "LabelName": "记忆体",
+        "Icon": "T_Item25005",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "25006": {
+        "ID": 25006,
+        "Name": "倒计时Ⅴ",
+        "Label": 106,
+        "LabelName": "记忆体",
+        "Icon": "T_Item25006",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "25007": {
+        "ID": 25007,
+        "Name": "夜空闪电Ⅴ",
+        "Label": 107,
+        "LabelName": "记忆体",
+        "Icon": "T_Item25007",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "25008": {
+        "ID": 25008,
+        "Name": "众妙之门Ⅴ",
+        "Label": 108,
+        "LabelName": "记忆体",
+        "Icon": "T_Item25008",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "25009": {
+        "ID": 25009,
+        "Name": "天杀",
+        "Label": 109,
+        "LabelName": "记忆体",
+        "Icon": "T_Item23001",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "25010": {
+        "ID": 25010,
+        "Name": "地猛",
+        "Label": 110,
+        "LabelName": "记忆体",
+        "Icon": "T_Item23001",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "25011": {
+        "ID": 25011,
+        "Name": "地镇",
+        "Label": 111,
+        "LabelName": "记忆体",
+        "Icon": "T_Item23001",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "25012": {
+        "ID": 25012,
+        "Name": "地魔",
+        "Label": 112,
+        "LabelName": "记忆体",
+        "Icon": "T_Item23001",
+        "Group": 0,
+        "Quality": 3,
+        "Package": 3,
+        "Tag": 0,
+        "Type": 201
+    },
+    "30001": {
+        "ID": 30001,
+        "Name": "加密存储器",
+        "Label": 301,
+        "LabelName": "加密存储器",
+        "Icon": "T_Item30001",
+        "Group": 0,
+        "Package": 5,
+        "Tag": 0,
+        "Type": 301,
+        "Desc": "<Text_3_B>加密的古代存储器，似乎需要一些时间进行破解，非常符合纯枫的爱好。</>",
+        "Stack": 999,
+        "Max": 999,
+        "BP": "BP_TestItem2",
+        "DropEffect": "NS_gold"
+    },
+    "30002": {
+        "ID": 30002,
+        "Name": "异宠图鉴",
+        "Label": 302,
+        "LabelName": "异宠图鉴",
+        "Icon": "T_Item30002",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 5,
+        "Tag": 0,
+        "Type": 301,
+        "Desc": "<Text_3_B>各种带鳞片的、不带鳞片的、有腿的、没腿的、很多腿的……异宠集合，白真真很喜欢在休闲时和图鉴里的全息异宠图像进行互动。</>",
+        "Stack": 999,
+        "Max": 999,
+        "BP": "BP_TestItem2",
+        "DropEffect": "NS_gold"
+    },
+    "30003": {
+        "ID": 30003,
+        "Name": "糖纸艺术教程",
+        "Label": 303,
+        "LabelName": "糖纸艺术教程",
+        "Icon": "T_Item30003",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 5,
+        "Tag": 0,
+        "Type": 301,
+        "Desc": "<Text_3_B>一份出版时间不详的电子版糖纸艺术教程，里面记载了各种糖纸折纸艺术的教程，青儿很喜欢私下对着那些复杂的步骤折糖纸</>",
+        "Stack": 999,
+        "Max": 999,
+        "BP": "BP_TestItem2",
+        "DropEffect": "NS_gold"
+    },
+    "30004": {
+        "ID": 30004,
+        "Name": "平面电影拷贝",
+        "Label": 304,
+        "LabelName": "平面电影拷贝",
+        "Icon": "T_Item30004",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 5,
+        "Tag": 0,
+        "Type": 301,
+        "Desc": "<Text_3_B>由人类拍摄和演出的电影，附带有导演评论音轨和演出花絮，是杨的心头好。</>",
+        "Stack": 999,
+        "Max": 999,
+        "BP": "BP_TestItem2",
+        "DropEffect": "NS_gold"
+    },
+    "30005": {
+        "ID": 30005,
+        "Name": "古代手绘动画",
+        "Label": 305,
+        "LabelName": "古代手绘动画",
+        "Icon": "T_Item30005",
+        "Group": 0,
+        "Package": 5,
+        "Tag": 0,
+        "Type": 301,
+        "Desc": "<Text_3_B>完全由人工绘制的动画，其中的主角都是拟人化的动物，夜见很喜欢在休闲时独自观看这些动画。</>",
+        "Stack": 999,
+        "Max": 999,
+        "BP": "BP_TestItem2",
+        "DropEffect": "NS_gold"
+    },
+    "30006": {
+        "ID": 30006,
+        "Name": "科幻小说",
+        "Label": 306,
+        "LabelName": "科幻小说",
+        "Icon": "T_Item30006",
+        "Group": 0,
+        "Package": 5,
+        "Tag": 0,
+        "Type": 301,
+        "Desc": "<Text_3_B>关于人类永生和复制人类相关题材的陈旧科幻小说，虽然很多内容现在看起来错漏百出，但依旧是裴休闲时候喜欢阅读的读物。</>",
+        "Stack": 999,
+        "Max": 999,
+        "BP": "BP_TestItem2",
+        "DropEffect": "NS_gold"
+    },
+    "30007": {
+        "ID": 30007,
+        "Name": "综合格斗录像合集",
+        "Label": 307,
+        "LabelName": "综合格斗录像合集",
+        "Icon": "T_Item30007",
+        "Group": 0,
+        "Package": 5,
+        "Tag": 0,
+        "Type": 301,
+        "Desc": "<Text_3_B>《善见格斗冠军大赛SFC赛事20周年全影像原盘刻录大合集》——名字和内容一样充满了暴力的美感。</>",
+        "Stack": 999,
+        "Max": 999,
+        "BP": "BP_TestItem2",
+        "DropEffect": "NS_gold"
+    },
+    "30008": {
+        "ID": 30008,
+        "Name": "古代音乐",
+        "Label": 308,
+        "LabelName": "古代音乐",
+        "Icon": "T_Item30008",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 5,
+        "Tag": 0,
+        "Type": 301,
+        "Desc": "<Text_3_B>伴有人声演唱的音乐，并未经过AI修音，应该属于某个古代文明，很符合孔雀的品味。</>",
+        "Stack": 999,
+        "Max": 999,
+        "BP": "BP_TestItem2",
+        "DropEffect": "NS_gold"
+    },
+    "30009": {
+        "ID": 30009,
+        "Name": "旧游戏软件",
+        "Label": 309,
+        "LabelName": "旧游戏软件",
+        "Icon": "T_Item30009",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 5,
+        "Tag": 0,
+        "Type": 301,
+        "Desc": "<Text_3_B>充满各种未知错误的旧游戏软件，有时甚至会出现无法读取的错误，但辉夜依旧对它们爱不释手。</>",
+        "Stack": 999,
+        "Max": 999,
+        "BP": "BP_TestItem2",
+        "DropEffect": "NS_gold"
+    },
+    "30010": {
+        "ID": 30010,
+        "Name": "顶级销售秘传心得",
+        "Label": 310,
+        "LabelName": "顶级销售秘传心得",
+        "Icon": "T_Item30010",
+        "Group": 0,
+        "Package": 5,
+        "Tag": 0,
+        "Type": 301,
+        "Desc": "<Text_3_B>《一年一亿！传说级销售端无价经验首披露！新人必看！》——一部不知什么时候发售的实用教材电子版，是否真的有用还有待商榷。</>",
+        "Stack": 999,
+        "Max": 999,
+        "BP": "BP_TestItem2",
+        "DropEffect": "NS_gold"
+    },
+    "30011": {
+        "ID": 30011,
+        "Name": "数字艺术品",
+        "Label": 311,
+        "LabelName": "数字艺术品",
+        "Icon": "T_Item30009",
+        "Group": 0,
+        "Package": 5,
+        "Tag": 0,
+        "Type": 301,
+        "Desc": "<Text_3_B>充满着未知内容的数字艺术品，内容从小说、绘画到音乐，无所不包，秋非常喜欢用它们来提升自己的数据分析能力。</>",
+        "Stack": 999,
+        "Max": 999,
+        "BP": "BP_TestItem2",
+        "DropEffect": "NS_gold"
+    },
+    "30012": {
+        "ID": 30012,
+        "Name": "发酵饮料数字配方",
+        "Label": 312,
+        "LabelName": "发酵饮料数字配方",
+        "Icon": "T_Item30001",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 5,
+        "Tag": 0,
+        "Type": 301,
+        "Desc": "<Text_3_B>数字版本的的指南，记载了古早的「发酵饮料」的各种配方，朱天喜欢按照这些指南进行调配，当然调制的发酵饮品会因为原材料短缺而风味比较怪异。</>",
+        "Stack": 999,
+        "Max": 999,
+        "BP": "BP_TestItem2",
+        "DropEffect": "NS_gold"
+    },
+    "41003": {
+        "ID": 41003,
+        "Name": "李灵珠",
+        "Label": 501,
+        "LabelName": "助手",
+        "Icon": "T_Item41003",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 203
+    },
+    "41004": {
+        "ID": 41004,
+        "Name": "白真真",
+        "Label": 501,
+        "LabelName": "助手",
+        "Icon": "T_Item41004",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 203
+    },
+    "41005": {
+        "ID": 41005,
+        "Name": "青儿",
+        "Label": 501,
+        "LabelName": "助手",
+        "Icon": "T_Item41005",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 203
+    },
+    "41006": {
+        "ID": 41006,
+        "Name": "裴",
+        "Label": 501,
+        "LabelName": "助手",
+        "Icon": "T_Item41006",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 203
+    },
+    "41007": {
+        "ID": 41007,
+        "Name": "孔雀",
+        "Label": 501,
+        "LabelName": "助手",
+        "Icon": "T_Item41007",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 203
+    },
+    "41008": {
+        "ID": 41008,
+        "Name": "辉夜",
+        "Label": 501,
+        "LabelName": "助手",
+        "Icon": "T_Item41008",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 203
+    },
+    "41009": {
+        "ID": 41009,
+        "Name": "夜见",
+        "Label": 501,
+        "LabelName": "助手",
+        "Icon": "T_Item41009",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 203
+    },
+    "41010": {
+        "ID": 41010,
+        "Name": "杨",
+        "Label": 501,
+        "LabelName": "助手",
+        "Icon": "T_Item41010",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 203
+    },
+    "41011": {
+        "ID": 41011,
+        "Name": "秋",
+        "Label": 501,
+        "LabelName": "助手",
+        "Icon": "T_Item41011",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 203
+    },
+    "41012": {
+        "ID": 41012,
+        "Name": "纯枫",
+        "Label": 501,
+        "LabelName": "助手",
+        "Icon": "T_Item41012",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 203
+    },
+    "41014": {
+        "ID": 41014,
+        "Name": "朱天",
+        "Label": 501,
+        "LabelName": "助手",
+        "Icon": "T_Item41014",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 203
+    },
+    "41021": {
+        "ID": 41021,
+        "Name": "实习极光",
+        "Label": 501,
+        "LabelName": "助手",
+        "Icon": "T_Item41021",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 203
+    },
+    "41022": {
+        "ID": 41022,
+        "Name": "混沌极光",
+        "Label": 501,
+        "LabelName": "助手",
+        "Icon": "T_Item41022",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 203
+    },
+    "51003": {
+        "ID": 51003,
+        "Name": "李灵珠的生命密码",
+        "Label": 499,
+        "LabelName": "助手的生命密码",
+        "Icon": "T_Item51003",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>当任何意识体进入赛博空间，其现实生命数据都会被扫描转移为硅化生命数据——这些独有的、无法被完整破译的古老代码，被称之为生命密码</>",
+        "Stack": 99,
+        "Max": 999
+    },
+    "51004": {
+        "ID": 51004,
+        "Name": "白真真的生命密码",
+        "Label": 499,
+        "LabelName": "助手的生命密码",
+        "Icon": "T_Item51004",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>当任何意识体进入赛博空间，其现实生命数据都会被扫描转移为硅化生命数据——这些独有的、无法被完整破译的古老代码，被称之为生命密码</>",
+        "Stack": 99,
+        "Max": 999
+    },
+    "51005": {
+        "ID": 51005,
+        "Name": "青儿的生命密码",
+        "Label": 499,
+        "LabelName": "助手的生命密码",
+        "Icon": "T_Item51005",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>当任何意识体进入赛博空间，其现实生命数据都会被扫描转移为硅化生命数据——这些独有的、无法被完整破译的古老代码，被称之为生命密码</>",
+        "Stack": 99,
+        "Max": 999
+    },
+    "51006": {
+        "ID": 51006,
+        "Name": "裴的生命密码",
+        "Label": 499,
+        "LabelName": "助手的生命密码",
+        "Icon": "T_Item51006",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>当任何意识体进入赛博空间，其现实生命数据都会被扫描转移为硅化生命数据——这些独有的、无法被完整破译的古老代码，被称之为生命密码</>",
+        "Stack": 99,
+        "Max": 999
+    },
+    "51007": {
+        "ID": 51007,
+        "Name": "孔雀的生命密码",
+        "Label": 499,
+        "LabelName": "助手的生命密码",
+        "Icon": "T_Item51007",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>当任何意识体进入赛博空间，其现实生命数据都会被扫描转移为硅化生命数据——这些独有的、无法被完整破译的古老代码，被称之为生命密码</>",
+        "Stack": 99,
+        "Max": 999
+    },
+    "51008": {
+        "ID": 51008,
+        "Name": "辉夜的生命密码",
+        "Label": 499,
+        "LabelName": "助手的生命密码",
+        "Icon": "T_Item51008",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>当任何意识体进入赛博空间，其现实生命数据都会被扫描转移为硅化生命数据——这些独有的、无法被完整破译的古老代码，被称之为生命密码</>",
+        "Stack": 99,
+        "Max": 999
+    },
+    "51009": {
+        "ID": 51009,
+        "Name": "夜见的生命密码",
+        "Label": 499,
+        "LabelName": "助手的生命密码",
+        "Icon": "T_Item51009",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>当任何意识体进入赛博空间，其现实生命数据都会被扫描转移为硅化生命数据——这些独有的、无法被完整破译的古老代码，被称之为生命密码</>",
+        "Stack": 99,
+        "Max": 999
+    },
+    "51010": {
+        "ID": 51010,
+        "Name": "杨的生命密码",
+        "Label": 499,
+        "LabelName": "助手的生命密码",
+        "Icon": "T_Item51010",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>当任何意识体进入赛博空间，其现实生命数据都会被扫描转移为硅化生命数据——这些独有的、无法被完整破译的古老代码，被称之为生命密码</>",
+        "Stack": 99,
+        "Max": 999
+    },
+    "51011": {
+        "ID": 51011,
+        "Name": "秋的生命密码",
+        "Label": 499,
+        "LabelName": "助手的生命密码",
+        "Icon": "T_Item51011",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>当任何意识体进入赛博空间，其现实生命数据都会被扫描转移为硅化生命数据——这些独有的、无法被完整破译的古老代码，被称之为生命密码</>",
+        "Stack": 99,
+        "Max": 999
+    },
+    "51012": {
+        "ID": 51012,
+        "Name": "纯枫的生命密码",
+        "Label": 499,
+        "LabelName": "助手的生命密码",
+        "Icon": "T_Item51012",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>当任何意识体进入赛博空间，其现实生命数据都会被扫描转移为硅化生命数据——这些独有的、无法被完整破译的古老代码，被称之为生命密码</>",
+        "Stack": 99,
+        "Max": 999
+    },
+    "51014": {
+        "ID": 51014,
+        "Name": "朱天的生命密码",
+        "Label": 499,
+        "LabelName": "助手的生命密码",
+        "Icon": "T_Item51014",
+        "Group": 0,
+        "Quality": 5,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>当任何意识体进入赛博空间，其现实生命数据都会被扫描转移为硅化生命数据——这些独有的、无法被完整破译的古老代码，被称之为生命密码</>",
+        "Stack": 99,
+        "Max": 999
+    },
+    "51021": {
+        "ID": 51021,
+        "Name": "实习极光的生命密码",
+        "Label": 499,
+        "LabelName": "助手的生命密码",
+        "Icon": "T_Item51021",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>当任何意识体进入赛博空间，其现实生命数据都会被扫描转移为硅化生命数据——这些独有的、无法被完整破译的古老代码，被称之为生命密码</>",
+        "Stack": 99,
+        "Max": 999
+    },
+    "51022": {
+        "ID": 51022,
+        "Name": "混沌极光的生命密码",
+        "Label": 499,
+        "LabelName": "助手的生命密码",
+        "Icon": "T_Item51022",
+        "Group": 0,
+        "Package": 1,
+        "Tag": 0,
+        "Type": 0,
+        "Desc": "<Text_3_B>当任何意识体进入赛博空间，其现实生命数据都会被扫描转移为硅化生命数据——这些独有的、无法被完整破译的古老代码，被称之为生命密码</>",
+        "Stack": 99,
+        "Max": 999
+    },
+    "100011": {
+        "ID": 100011,
+        "Name": "300气血增幅器",
+        "Label": 0,
+        "Icon": "T_Item10001",
+        "Group": 0,
+        "Tag": 0,
+        "Type": 101
+    },
+    "100012": {
+        "ID": 100012,
+        "Name": "600气血增幅器",
+        "Label": 0,
+        "Icon": "T_Item10001",
+        "Group": 0,
+        "Tag": 0,
+        "Type": 101
+    },
+    "100013": {
+        "ID": 100013,
+        "Name": "750气血增幅器",
+        "Label": 0,
+        "Icon": "T_Item10001",
+        "Group": 0,
+        "Tag": 0,
+        "Type": 101
+    },
+    "100014": {
+        "ID": 100014,
+        "Name": "1000气血增幅器",
+        "Label": 0,
+        "Icon": "T_Item10001",
+        "Group": 0,
+        "Tag": 0,
+        "Type": 101
+    },
+    "100015": {
+        "ID": 100015,
+        "Name": "1200气血增幅器",
+        "Label": 0,
+        "Icon": "T_Item10001",
+        "Group": 0,
+        "Tag": 0,
+        "Type": 101
+    },
+    "100021": {
+        "ID": 100021,
+        "Name": "20%生命球",
+        "Label": 0,
+        "Icon": "T_Item10001",
+        "Group": 0,
+        "Quality": 1,
+        "Tag": 0
+    },
+    "100031": {
+        "ID": 100031,
+        "Name": "20%能量球",
+        "Label": 0,
+        "Icon": "T_Item10001",
+        "Group": 0,
+        "Quality": 1,
+        "Tag": 0,
+        "Desc": "",
+        "UseType": 3,
+        "UseEffect": "Cure",
+        "BP": "BP_TestItem2",
+        "DropEffect": "NS_gold"
+    },
+    "101011": {
+        "ID": 101011,
+        "Name": "私有-物理增幅",
+        "Icon": "T_Item10101",
+        "Group": 10101,
+        "Quality": 3
+    },
+    "101012": {
+        "ID": 101012,
+        "Name": "私有-物理增幅",
+        "Icon": "T_Item10101",
+        "Group": 10101
+    },
+    "101013": {
+        "ID": 101013,
+        "Name": "私有-物理增幅",
+        "Icon": "T_Item10101",
+        "Group": 10101,
+        "Quality": 5
+    },
+    "101021": {
+        "ID": 101021,
+        "Name": "公共-钝器打击",
+        "Icon": "T_Item10102",
+        "Group": 10102,
+        "Quality": 3
+    },
+    "101022": {
+        "ID": 101022,
+        "Name": "公共-钝器打击",
+        "Icon": "T_Item10102",
+        "Group": 10102
+    },
+    "101023": {
+        "ID": 101023,
+        "Name": "公共-钝器打击",
+        "Icon": "T_Item10102",
+        "Group": 10102,
+        "Quality": 5
+    },
+    "101031": {
+        "ID": 101031,
+        "Name": "公共-伤害自增",
+        "Icon": "T_Item10103",
+        "Group": 10103,
+        "Quality": 3
+    },
+    "101032": {
+        "ID": 101032,
+        "Name": "公共-伤害自增",
+        "Icon": "T_Item10103",
+        "Group": 10103
+    },
+    "101033": {
+        "ID": 101033,
+        "Name": "公共-伤害自增",
+        "Icon": "T_Item10103",
+        "Group": 10103,
+        "Quality": 5
+    },
+    "101041": {
+        "ID": 101041,
+        "Name": "公共-足刃漩涡",
+        "Icon": "T_Item10104",
+        "Group": 10104,
+        "Quality": 3
+    },
+    "101042": {
+        "ID": 101042,
+        "Name": "公共-足刃漩涡",
+        "Icon": "T_Item10104",
+        "Group": 10104
+    },
+    "101043": {
+        "ID": 101043,
+        "Name": "公共-足刃漩涡",
+        "Icon": "T_Item10104",
+        "Group": 10104,
+        "Quality": 5
+    },
+    "101051": {
+        "ID": 101051,
+        "Name": "函数-击破溅射",
+        "Icon": "T_Item10105",
+        "Group": 10105,
+        "Quality": 3,
+        "Desc": "<Text_3_B>【物理】入场时将获得</><Text_3_T>3</><Text_3_B>把足刃,冷却</><Text_3_T>16</><Text_3_B>秒（每把足刃提高5%物理伤害,持续10秒）</>"
+    },
+    "101052": {
+        "ID": 101052,
+        "Name": "函数-击破溅射",
+        "Icon": "T_Item10105",
+        "Group": 10105,
+        "Desc": "<Text_3_B>【物理】入场时将获得</><Text_3_T>4</><Text_3_B>把足刃,冷却</><Text_3_T>12</><Text_3_B>秒（每把足刃提高5%物理伤害,持续10秒）</>"
+    },
+    "101053": {
+        "ID": 101053,
+        "Name": "函数-击破溅射",
+        "Icon": "T_Item10105",
+        "Group": 10105,
+        "Quality": 5,
+        "Desc": "<Text_3_B>【物理】入场时将获得</><Text_3_T>5</><Text_3_B>把足刃,冷却</><Text_3_T>8</><Text_3_B>秒（每把足刃提高5%物理伤害,持续10秒）</>"
+    },
+    "101061": {
+        "ID": 101061,
+        "Name": "公共-火力压制",
+        "Icon": "T_Item10106",
+        "Group": 10106,
+        "Quality": 3
+    },
+    "101062": {
+        "ID": 101062,
+        "Name": "公共-火力压制",
+        "Icon": "T_Item10106",
+        "Group": 10106
+    },
+    "101063": {
+        "ID": 101063,
+        "Name": "公共-火力压制",
+        "Icon": "T_Item10106",
+        "Group": 10106,
+        "Quality": 5
+    },
+    "101071": {
+        "ID": 101071,
+        "Name": "函数-百足自增",
+        "Icon": "T_Item10107",
+        "Group": 10107,
+        "Quality": 3,
+        "Desc": "<Text_3_B>怒气满值时伤害提升</><Text_3_T>35%</>"
+    },
+    "101072": {
+        "ID": 101072,
+        "Name": "函数-百足自增",
+        "Icon": "T_Item10107",
+        "Group": 10107,
+        "Desc": "<Text_3_B>怒气满值时伤害提升</><Text_3_T>42%</>"
+    },
+    "101073": {
+        "ID": 101073,
+        "Name": "函数-百足自增",
+        "Icon": "T_Item10107",
+        "Group": 10107,
+        "Quality": 5,
+        "Desc": "<Text_3_B>每把足刃额外提高</><Text_3_T>10%</><Text_3_B>物理伤害（若为附魔足刃，提高附魔元素对应的属性伤害）</>"
+    },
+    "101081": {
+        "ID": 101081,
+        "Name": "函数-弹药扩容",
+        "Icon": "T_Item10108",
+        "Group": 10108,
+        "Quality": 3,
+        "Desc": "<Text_3_B>足刃上限提高</><Text_3_T>1</><Text_3_B>把，持续时间提高</><Text_3_T>2</><Text_3_B>秒</>"
+    },
+    "101082": {
+        "ID": 101082,
+        "Name": "函数-弹药扩容",
+        "Icon": "T_Item10108",
+        "Group": 10108,
+        "Desc": "<Text_3_B>足刃上限提高</><Text_3_T>2</><Text_3_B>把，持续时间提高</><Text_3_T>4</><Text_3_B>秒</>"
+    },
+    "101083": {
+        "ID": 101083,
+        "Name": "函数-弹药扩容",
+        "Icon": "T_Item10108",
+        "Group": 10108,
+        "Quality": 5,
+        "Desc": "<Text_3_B>足刃上限提高</><Text_3_T>3</><Text_3_B>把，持续时间提高</><Text_3_T>6</><Text_3_B>秒</>"
+    },
+    "101091": {
+        "ID": 101091,
+        "Name": "公共-能量溢出",
+        "Icon": "T_Item10109",
+        "Group": 10109,
+        "Quality": 3
+    },
+    "101092": {
+        "ID": 101092,
+        "Name": "公共-能量溢出",
+        "Icon": "T_Item10109",
+        "Group": 10109
+    },
+    "101093": {
+        "ID": 101093,
+        "Name": "公共-能量溢出",
+        "Icon": "T_Item10109",
+        "Group": 10109,
+        "Quality": 5
+    },
+    "101101": {
+        "ID": 101101,
+        "Name": "函数-子弹上膛",
+        "Icon": "T_Item10110",
+        "Group": 10110,
+        "Quality": 3,
+        "Desc": "<Text_3_B>每次获得足刃，有</><Text_3_T>20%</><Text_3_B>概率恢复1点技能点</>"
+    },
+    "101102": {
+        "ID": 101102,
+        "Name": "函数-子弹上膛",
+        "Icon": "T_Item10110",
+        "Group": 10110,
+        "Desc": "<Text_3_B>每次获得足刃，有</><Text_3_T>30%</><Text_3_B>概率恢复1点技能点</>"
+    },
+    "101103": {
+        "ID": 101103,
+        "Name": "函数-子弹上膛",
+        "Icon": "T_Item10110",
+        "Group": 10110,
+        "Quality": 5,
+        "Desc": "<Text_3_B>每次获得足刃，有</><Text_3_T>40%</><Text_3_B>概率恢复1点技能点</>"
+    },
+    "101111": {
+        "ID": 101111,
+        "Name": "函数-物理增幅",
+        "Icon": "T_Item10111",
+        "Group": 10111,
+        "Quality": 3,
+        "Desc": "<Text_3_B>击杀敌人时，有</><Text_3_T>50%</><Text_3_B>概率获得1把足刃（每把足刃提高5%物理伤害,持续10秒）</>"
+    },
+    "101112": {
+        "ID": 101112,
+        "Name": "函数-物理增幅",
+        "Icon": "T_Item10111",
+        "Group": 10111,
+        "Desc": "<Text_3_B>击杀敌人时，有</><Text_3_T>75%</><Text_3_B>概率获得1把足刃（每把足刃提高5%物理伤害,持续10秒）</>"
+    },
+    "101113": {
+        "ID": 101113,
+        "Name": "函数-物理增幅",
+        "Icon": "T_Item10111",
+        "Group": 10111,
+        "Quality": 5,
+        "Desc": "<Text_3_B>击杀敌人时，有</><Text_3_T>100%</><Text_3_B>概率获得1把足刃（每把足刃提高5%物理伤害,持续10秒）</>"
+    },
+    "101121": {
+        "ID": 101121,
+        "Name": "公共-初始增幅",
+        "Icon": "T_Item10112",
+        "Group": 10112,
+        "Quality": 3
+    },
+    "101122": {
+        "ID": 101122,
+        "Name": "公共-初始增幅",
+        "Icon": "T_Item10112",
+        "Group": 10112
+    },
+    "101123": {
+        "ID": 101123,
+        "Name": "公共-初始增幅",
+        "Icon": "T_Item10112",
+        "Group": 10112,
+        "Quality": 5
+    },
+    "101131": {
+        "ID": 101131,
+        "Name": "公共-初始过载",
+        "Icon": "T_Item10113",
+        "Group": 10113,
+        "Quality": 3
+    },
+    "101132": {
+        "ID": 101132,
+        "Name": "公共-初始过载",
+        "Icon": "T_Item10113",
+        "Group": 10113
+    },
+    "101133": {
+        "ID": 101133,
+        "Name": "公共-初始过载",
+        "Icon": "T_Item10113",
+        "Group": 10113,
+        "Quality": 5
+    },
+    "101141": {
+        "ID": 101141,
+        "Name": "公共-集中算力",
+        "Icon": "T_Item10114",
+        "Group": 10114,
+        "Quality": 3
+    },
+    "101142": {
+        "ID": 101142,
+        "Name": "公共-集中算力",
+        "Icon": "T_Item10114",
+        "Group": 10114
+    },
+    "101143": {
+        "ID": 101143,
+        "Name": "公共-集中算力",
+        "Icon": "T_Item10114",
+        "Group": 10114,
+        "Quality": 5
+    },
+    "101151": {
+        "ID": 101151,
+        "Name": "函数-内存回收",
+        "Icon": "T_Item10115",
+        "Group": 10115,
+        "Quality": 3,
+        "Desc": "<Text_3_B>【物理】足刃漩涡持续时间减少2秒，但消失时产生一次大面积扩散，造成</><Text_3_T>200%</><Text_3_B>攻击的伤害</>"
+    },
+    "101152": {
+        "ID": 101152,
+        "Name": "函数-内存回收",
+        "Icon": "T_Item10115",
+        "Group": 10115,
+        "Desc": "<Text_3_B>【物理】足刃漩涡持续时间减少2秒，但消失时产生一次大面积扩散，造成</><Text_3_T>300%</><Text_3_B>攻击的伤害</>"
+    },
+    "101153": {
+        "ID": 101153,
+        "Name": "函数-内存回收",
+        "Icon": "T_Item10115",
+        "Group": 10115,
+        "Quality": 5,
+        "Desc": "<Text_3_B>【物理】足刃漩涡持续时间减少2秒，但消失时产生一次大面积扩散，造成</><Text_3_T>400%</><Text_3_B>攻击的伤害</>"
+    },
+    "101161": {
+        "ID": 101161,
+        "Name": "公共-自动索敌",
+        "Icon": "T_Item10116",
+        "Group": 10116,
+        "Quality": 3
+    },
+    "101162": {
+        "ID": 101162,
+        "Name": "公共-自动索敌",
+        "Icon": "T_Item10116",
+        "Group": 10116
+    },
+    "101163": {
+        "ID": 101163,
+        "Name": "公共-自动索敌",
+        "Icon": "T_Item10116",
+        "Group": 10116,
+        "Quality": 5
+    },
+    "101171": {
+        "ID": 101171,
+        "Name": "公共-双重弹道",
+        "Icon": "T_Item10117",
+        "Group": 10117,
+        "Quality": 3
+    },
+    "101172": {
+        "ID": 101172,
+        "Name": "公共-双重弹道",
+        "Icon": "T_Item10117",
+        "Group": 10117
+    },
+    "101173": {
+        "ID": 101173,
+        "Name": "公共-双重弹道",
+        "Icon": "T_Item10117",
+        "Group": 10117,
+        "Quality": 5
+    },
+    "101181": {
+        "ID": 101181,
+        "Name": "函数-堆栈溢出",
+        "Icon": "T_Item10118",
+        "Group": 10118,
+        "Quality": 3,
+        "Desc": "<Text_3_B>【物理】对敌人造成近战伤害时有</><Text_3_T>50%</><Text_3_B>概率生成1个飞刃，对随机敌人造成</><Text_3_T>100%</><Text_3_B>攻击的伤害</>"
+    },
+    "101182": {
+        "ID": 101182,
+        "Name": "函数-堆栈溢出",
+        "Icon": "T_Item10118",
+        "Group": 10118,
+        "Desc": "<Text_3_B>【物理】对敌人造成近战伤害时有</><Text_3_T>75%</><Text_3_B>概率生成1个飞刃，对随机敌人造成</><Text_3_T>150%</><Text_3_B>攻击的伤害</>"
+    },
+    "101183": {
+        "ID": 101183,
+        "Name": "函数-堆栈溢出",
+        "Icon": "T_Item10118",
+        "Group": 10118,
+        "Quality": 5,
+        "Desc": "<Text_3_B>【物理】对敌人造成近战伤害时有</><Text_3_T>100%</><Text_3_B>概率生成1个飞刃，对随机敌人造成</><Text_3_T>200%</><Text_3_B>攻击的伤害</>"
+    },
+    "101191": {
+        "ID": 101191,
+        "Name": "函数-弹射攻击",
+        "Icon": "T_Item10119",
+        "Group": 10119,
+        "Quality": 3,
+        "Desc": "<Text_3_B>每次生成飞刃有</><Text_3_T>30%</><Text_3_B>概率生成1个额外飞刃</>"
+    },
+    "101192": {
+        "ID": 101192,
+        "Name": "函数-弹射攻击",
+        "Icon": "T_Item10119",
+        "Group": 10119,
+        "Desc": "<Text_3_B>每次生成飞刃有</><Text_3_T>45%</><Text_3_B>概率生成1个额外飞刃</>"
+    },
+    "101193": {
+        "ID": 101193,
+        "Name": "函数-弹射攻击",
+        "Icon": "T_Item10119",
+        "Group": 10119,
+        "Quality": 5,
+        "Desc": "<Text_3_B>每次生成飞刃有</><Text_3_T>60%</><Text_3_B>概率生成1个额外飞刃</>"
+    },
+    "102011": {
+        "ID": 102011,
+        "Name": "私有-红热模式",
+        "Icon": "T_Item10201",
+        "Group": 10201,
+        "Quality": 3
+    },
+    "102012": {
+        "ID": 102012,
+        "Name": "私有-红热模式",
+        "Icon": "T_Item10201",
+        "Group": 10201
+    },
+    "102013": {
+        "ID": 102013,
+        "Name": "私有-红热模式",
+        "Icon": "T_Item10201",
+        "Group": 10201,
+        "Quality": 5
+    },
+    "102021": {
+        "ID": 102021,
+        "Name": "公共-蓄力爆发",
+        "Icon": "T_Item10202",
+        "Group": 10202,
+        "Quality": 3
+    },
+    "102022": {
+        "ID": 102022,
+        "Name": "公共-蓄力爆发",
+        "Icon": "T_Item10202",
+        "Group": 10202
+    },
+    "102023": {
+        "ID": 102023,
+        "Name": "公共-蓄力爆发",
+        "Icon": "T_Item10202",
+        "Group": 10202,
+        "Quality": 5
+    },
+    "102031": {
+        "ID": 102031,
+        "Name": "公共-龙王祝福",
+        "Icon": "T_Item10203",
+        "Group": 10203,
+        "Quality": 3
+    },
+    "102032": {
+        "ID": 102032,
+        "Name": "公共-龙王祝福",
+        "Icon": "T_Item10203",
+        "Group": 10203
+    },
+    "102033": {
+        "ID": 102033,
+        "Name": "公共-龙王祝福",
+        "Icon": "T_Item10203",
+        "Group": 10203,
+        "Quality": 5
+    },
+    "102041": {
+        "ID": 102041,
+        "Name": "公共-高温冲击",
+        "Icon": "T_Item10204",
+        "Group": 10204,
+        "Quality": 3
+    },
+    "102042": {
+        "ID": 102042,
+        "Name": "公共-高温冲击",
+        "Icon": "T_Item10204",
+        "Group": 10204
+    },
+    "102043": {
+        "ID": 102043,
+        "Name": "公共-高温冲击",
+        "Icon": "T_Item10204",
+        "Group": 10204,
+        "Quality": 5
+    },
+    "102051": {
+        "ID": 102051,
+        "Name": "公共-快速累加",
+        "Icon": "T_Item10205",
+        "Group": 10205,
+        "Quality": 3
+    },
+    "102052": {
+        "ID": 102052,
+        "Name": "公共-快速累加",
+        "Icon": "T_Item10205",
+        "Group": 10205
+    },
+    "102053": {
+        "ID": 102053,
+        "Name": "公共-快速累加",
+        "Icon": "T_Item10205",
+        "Group": 10205,
+        "Quality": 5
+    },
+    "102061": {
+        "ID": 102061,
+        "Name": "公共-易燃易爆",
+        "Icon": "T_Item10206",
+        "Group": 10206,
+        "Quality": 3
+    },
+    "102062": {
+        "ID": 102062,
+        "Name": "公共-易燃易爆",
+        "Icon": "T_Item10206",
+        "Group": 10206
+    },
+    "102063": {
+        "ID": 102063,
+        "Name": "公共-易燃易爆",
+        "Icon": "T_Item10206",
+        "Group": 10206,
+        "Quality": 5
+    },
+    "102071": {
+        "ID": 102071,
+        "Name": "私有-高温漩涡",
+        "Icon": "T_Item10207",
+        "Group": 10207,
+        "Quality": 3
+    },
+    "102072": {
+        "ID": 102072,
+        "Name": "私有-高温漩涡",
+        "Icon": "T_Item10207",
+        "Group": 10207
+    },
+    "102073": {
+        "ID": 102073,
+        "Name": "私有-高温漩涡",
+        "Icon": "T_Item10207",
+        "Group": 10207,
+        "Quality": 5
+    },
+    "102081": {
+        "ID": 102081,
+        "Name": "公共-超载运行",
+        "Icon": "T_Item10208",
+        "Group": 10208,
+        "Quality": 3
+    },
+    "102082": {
+        "ID": 102082,
+        "Name": "公共-超载运行",
+        "Icon": "T_Item10208",
+        "Group": 10208
+    },
+    "102083": {
+        "ID": 102083,
+        "Name": "公共-超载运行",
+        "Icon": "T_Item10208",
+        "Group": 10208,
+        "Quality": 5
+    },
+    "102091": {
+        "ID": 102091,
+        "Name": "公共-蓄力增压",
+        "Icon": "T_Item10209",
+        "Group": 10209,
+        "Quality": 3
+    },
+    "102092": {
+        "ID": 102092,
+        "Name": "公共-蓄力增压",
+        "Icon": "T_Item10209",
+        "Group": 10209
+    },
+    "102093": {
+        "ID": 102093,
+        "Name": "公共-蓄力增压",
+        "Icon": "T_Item10209",
+        "Group": 10209,
+        "Quality": 5
+    },
+    "102101": {
+        "ID": 102101,
+        "Name": "公共-怒气增益",
+        "Icon": "T_Item10210",
+        "Group": 10210,
+        "Quality": 3
+    },
+    "102102": {
+        "ID": 102102,
+        "Name": "公共-怒气增益",
+        "Icon": "T_Item10210",
+        "Group": 10210
+    },
+    "102103": {
+        "ID": 102103,
+        "Name": "公共-怒气增益",
+        "Icon": "T_Item10210",
+        "Group": 10210,
+        "Quality": 5
+    },
+    "102111": {
+        "ID": 102111,
+        "Name": "公共-热力成像",
+        "Icon": "T_Item10211",
+        "Group": 10211,
+        "Quality": 3
+    },
+    "102112": {
+        "ID": 102112,
+        "Name": "公共-热力成像",
+        "Icon": "T_Item10211",
+        "Group": 10211
+    },
+    "102113": {
+        "ID": 102113,
+        "Name": "公共-热力成像",
+        "Icon": "T_Item10211",
+        "Group": 10211,
+        "Quality": 5
+    },
+    "102121": {
+        "ID": 102121,
+        "Name": "公共-绝技自增",
+        "Icon": "T_Item10212",
+        "Group": 10212,
+        "Quality": 3
+    },
+    "102122": {
+        "ID": 102122,
+        "Name": "公共-绝技自增",
+        "Icon": "T_Item10212",
+        "Group": 10212
+    },
+    "102123": {
+        "ID": 102123,
+        "Name": "公共-绝技自增",
+        "Icon": "T_Item10212",
+        "Group": 10212,
+        "Quality": 5
+    },
+    "102131": {
+        "ID": 102131,
+        "Name": "公共-损则有孚",
+        "Icon": "T_Item10213",
+        "Group": 10213,
+        "Quality": 3
+    },
+    "102132": {
+        "ID": 102132,
+        "Name": "公共-损则有孚",
+        "Icon": "T_Item10213",
+        "Group": 10213
+    },
+    "102133": {
+        "ID": 102133,
+        "Name": "公共-损则有孚",
+        "Icon": "T_Item10213",
+        "Group": 10213,
+        "Quality": 5
+    },
+    "102141": {
+        "ID": 102141,
+        "Name": "私有-高温权杖",
+        "Icon": "T_Item10214",
+        "Group": 10214,
+        "Quality": 3
+    },
+    "102142": {
+        "ID": 102142,
+        "Name": "私有-高温权杖",
+        "Icon": "T_Item10214",
+        "Group": 10214
+    },
+    "102143": {
+        "ID": 102143,
+        "Name": "私有-高温权杖",
+        "Icon": "T_Item10214",
+        "Group": 10214,
+        "Quality": 5
+    },
+    "102151": {
+        "ID": 102151,
+        "Name": "私有-高温火羽",
+        "Icon": "T_Item10214",
+        "Group": 10215,
+        "Quality": 3
+    },
+    "102152": {
+        "ID": 102152,
+        "Name": "私有-高温火羽",
+        "Icon": "T_Item10214",
+        "Group": 10215
+    },
+    "102153": {
+        "ID": 102153,
+        "Name": "私有-高温火羽",
+        "Icon": "T_Item10214",
+        "Group": 10215,
+        "Quality": 5
+    },
+    "103011": {
+        "ID": 103011,
+        "Name": "私有-高速电流",
+        "Icon": "T_Item10301",
+        "Group": 10301,
+        "Quality": 3
+    },
+    "103012": {
+        "ID": 103012,
+        "Name": "私有-高速电流",
+        "Icon": "T_Item10301",
+        "Group": 10301
+    },
+    "103013": {
+        "ID": 103013,
+        "Name": "私有-高速电流",
+        "Icon": "T_Item10301",
+        "Group": 10301,
+        "Quality": 5
+    },
+    "103021": {
+        "ID": 103021,
+        "Name": "公共-电气释放",
+        "Icon": "T_Item10302",
+        "Group": 10302,
+        "Quality": 3
+    },
+    "103022": {
+        "ID": 103022,
+        "Name": "公共-电气释放",
+        "Icon": "T_Item10302",
+        "Group": 10302
+    },
+    "103023": {
+        "ID": 103023,
+        "Name": "公共-电气释放",
+        "Icon": "T_Item10302",
+        "Group": 10302,
+        "Quality": 5
+    },
+    "103031": {
+        "ID": 103031,
+        "Name": "公共-破甲自增",
+        "Icon": "T_Item10303",
+        "Group": 10303,
+        "Quality": 3
+    },
+    "103032": {
+        "ID": 103032,
+        "Name": "公共-破甲自增",
+        "Icon": "T_Item10303",
+        "Group": 10303
+    },
+    "103033": {
+        "ID": 103033,
+        "Name": "公共-破甲自增",
+        "Icon": "T_Item10303",
+        "Group": 10303,
+        "Quality": 5
+    },
+    "103041": {
+        "ID": 103041,
+        "Name": "公共-电气冲击",
+        "Icon": "T_Item10304",
+        "Group": 10304,
+        "Quality": 3
+    },
+    "103042": {
+        "ID": 103042,
+        "Name": "公共-电气冲击",
+        "Icon": "T_Item10304",
+        "Group": 10304
+    },
+    "103043": {
+        "ID": 103043,
+        "Name": "公共-电气冲击",
+        "Icon": "T_Item10304",
+        "Group": 10304,
+        "Quality": 5
+    },
+    "103051": {
+        "ID": 103051,
+        "Name": "公共-持续通电",
+        "Icon": "T_Item10305",
+        "Group": 10305,
+        "Quality": 3
+    },
+    "103052": {
+        "ID": 103052,
+        "Name": "公共-持续通电",
+        "Icon": "T_Item10305",
+        "Group": 10305
+    },
+    "103053": {
+        "ID": 103053,
+        "Name": "公共-持续通电",
+        "Icon": "T_Item10305",
+        "Group": 10305,
+        "Quality": 5
+    },
+    "103061": {
+        "ID": 103061,
+        "Name": "公共-电力溢出",
+        "Icon": "T_Item10306",
+        "Group": 10306,
+        "Quality": 3
+    },
+    "103062": {
+        "ID": 103062,
+        "Name": "公共-电力溢出",
+        "Icon": "T_Item10306",
+        "Group": 10306
+    },
+    "103063": {
+        "ID": 103063,
+        "Name": "公共-电力溢出",
+        "Icon": "T_Item10306",
+        "Group": 10306,
+        "Quality": 5
+    },
+    "103071": {
+        "ID": 103071,
+        "Name": "公共-双重电击",
+        "Icon": "T_Item10307",
+        "Group": 10307,
+        "Quality": 3
+    },
+    "103072": {
+        "ID": 103072,
+        "Name": "公共-双重电击",
+        "Icon": "T_Item10307",
+        "Group": 10307
+    },
+    "103073": {
+        "ID": 103073,
+        "Name": "公共-双重电击",
+        "Icon": "T_Item10307",
+        "Group": 10307,
+        "Quality": 5
+    },
+    "103081": {
+        "ID": 103081,
+        "Name": "公共-电磁脉冲",
+        "Icon": "T_Item10308",
+        "Group": 10308,
+        "Quality": 3
+    },
+    "103082": {
+        "ID": 103082,
+        "Name": "公共-电磁脉冲",
+        "Icon": "T_Item10308",
+        "Group": 10308
+    },
+    "103083": {
+        "ID": 103083,
+        "Name": "公共-电磁脉冲",
+        "Icon": "T_Item10308",
+        "Group": 10308,
+        "Quality": 5
+    },
+    "103091": {
+        "ID": 103091,
+        "Name": "私有-电气漩涡",
+        "Icon": "T_Item10309",
+        "Group": 10309,
+        "Quality": 3
+    },
+    "103092": {
+        "ID": 103092,
+        "Name": "私有-电气漩涡",
+        "Icon": "T_Item10309",
+        "Group": 10309
+    },
+    "103093": {
+        "ID": 103093,
+        "Name": "私有-电气漩涡",
+        "Icon": "T_Item10309",
+        "Group": 10309,
+        "Quality": 5
+    },
+    "103101": {
+        "ID": 103101,
+        "Name": "公共-锐器打击",
+        "Icon": "T_Item10310",
+        "Group": 10310,
+        "Quality": 3
+    },
+    "103102": {
+        "ID": 103102,
+        "Name": "公共-锐器打击",
+        "Icon": "T_Item10310",
+        "Group": 10310
+    },
+    "103103": {
+        "ID": 103103,
+        "Name": "公共-锐器打击",
+        "Icon": "T_Item10310",
+        "Group": 10310,
+        "Quality": 5
+    },
+    "103111": {
+        "ID": 103111,
+        "Name": "私有-电气权杖",
+        "Icon": "T_Item10311",
+        "Group": 10311,
+        "Quality": 3
+    },
+    "103112": {
+        "ID": 103112,
+        "Name": "私有-电气权杖",
+        "Icon": "T_Item10311",
+        "Group": 10311
+    },
+    "103113": {
+        "ID": 103113,
+        "Name": "私有-电气权杖",
+        "Icon": "T_Item10311",
+        "Group": 10311,
+        "Quality": 5
+    },
+    "103121": {
+        "ID": 103121,
+        "Name": "公共-攻破协议",
+        "Icon": "T_Item10312",
+        "Group": 10312,
+        "Quality": 3
+    },
+    "103122": {
+        "ID": 103122,
+        "Name": "公共-攻破协议",
+        "Icon": "T_Item10312",
+        "Group": 10312
+    },
+    "103123": {
+        "ID": 103123,
+        "Name": "公共-攻破协议",
+        "Icon": "T_Item10312",
+        "Group": 10312,
+        "Quality": 5
+    },
+    "103131": {
+        "ID": 103131,
+        "Name": "公共-电流击穿",
+        "Icon": "T_Item10313",
+        "Group": 10313,
+        "Quality": 3
+    },
+    "103132": {
+        "ID": 103132,
+        "Name": "公共-电流击穿",
+        "Icon": "T_Item10313",
+        "Group": 10313
+    },
+    "103133": {
+        "ID": 103133,
+        "Name": "公共-电流击穿",
+        "Icon": "T_Item10313",
+        "Group": 10313,
+        "Quality": 5
+    },
+    "103141": {
+        "ID": 103141,
+        "Name": "公共-电流扩散",
+        "Icon": "T_Item10314",
+        "Group": 10314,
+        "Quality": 3
+    },
+    "103142": {
+        "ID": 103142,
+        "Name": "公共-电流扩散",
+        "Icon": "T_Item10314",
+        "Group": 10314
+    },
+    "103143": {
+        "ID": 103143,
+        "Name": "公共-电流扩散",
+        "Icon": "T_Item10314",
+        "Group": 10314,
+        "Quality": 5
+    },
+    "103151": {
+        "ID": 103151,
+        "Name": "私有-电气之羽",
+        "Icon": "T_Item10315",
+        "Group": 10315,
+        "Quality": 3
+    },
+    "103152": {
+        "ID": 103152,
+        "Name": "私有-电气之羽",
+        "Icon": "T_Item10315",
+        "Group": 10315
+    },
+    "103153": {
+        "ID": 103153,
+        "Name": "私有-电气之羽",
+        "Icon": "T_Item10315",
+        "Group": 10315,
+        "Quality": 5
+    },
+    "105011": {
+        "ID": 105011,
+        "Name": "私有-无害处理",
+        "Icon": "T_Item10201",
+        "Group": 10501,
+        "Quality": 3
+    },
+    "105012": {
+        "ID": 105012,
+        "Name": "私有-无害处理",
+        "Icon": "T_Item10201",
+        "Group": 10501
+    },
+    "105013": {
+        "ID": 105013,
+        "Name": "私有-无害处理",
+        "Icon": "T_Item10201",
+        "Group": 10501,
+        "Quality": 5
+    },
+    "105021": {
+        "ID": 105021,
+        "Name": "私有-电气之羽",
+        "Icon": "T_Item10202",
+        "Group": 10502,
+        "Quality": 3,
+        "Desc": ""
+    },
+    "105022": {
+        "ID": 105022,
+        "Name": "私有-电气之羽",
+        "Icon": "T_Item10202",
+        "Group": 10502,
+        "Desc": ""
+    },
+    "105023": {
+        "ID": 105023,
+        "Name": "私有-电气之羽",
+        "Icon": "T_Item10202",
+        "Group": 10502,
+        "Quality": 5,
+        "Desc": ""
+    },
+    "105031": {
+        "ID": 105031,
+        "Name": "公共-防御自增",
+        "Icon": "T_Item10203",
+        "Group": 10503,
+        "Quality": 3
+    },
+    "105032": {
+        "ID": 105032,
+        "Name": "公共-防御自增",
+        "Icon": "T_Item10203",
+        "Group": 10503
+    },
+    "105033": {
+        "ID": 105033,
+        "Name": "公共-防御自增",
+        "Icon": "T_Item10203",
+        "Group": 10503,
+        "Quality": 5
+    },
+    "105041": {
+        "ID": 105041,
+        "Name": "跳转回调-龙王",
+        "Icon": "T_Item10204",
+        "Group": 10504,
+        "Quality": 3
+    },
+    "105042": {
+        "ID": 105042,
+        "Name": "跳转回调-龙王",
+        "Icon": "T_Item10204",
+        "Group": 10504
+    },
+    "105043": {
+        "ID": 105043,
+        "Name": "跳转回调-龙王",
+        "Icon": "T_Item10204",
+        "Group": 10504,
+        "Quality": 5
+    },
+    "105051": {
+        "ID": 105051,
+        "Name": "公共-警戒标记",
+        "Icon": "T_Item10205",
+        "Group": 10505,
+        "Quality": 3
+    },
+    "105052": {
+        "ID": 105052,
+        "Name": "公共-警戒标记",
+        "Icon": "T_Item10205",
+        "Group": 10505
+    },
+    "105053": {
+        "ID": 105053,
+        "Name": "公共-警戒标记",
+        "Icon": "T_Item10205",
+        "Group": 10505,
+        "Quality": 5
+    },
+    "105061": {
+        "ID": 105061,
+        "Name": "函数-爆炸火环",
+        "Icon": "T_Item10206",
+        "Group": 10506,
+        "Quality": 3
+    },
+    "105062": {
+        "ID": 105062,
+        "Name": "函数-爆炸火环",
+        "Icon": "T_Item10206",
+        "Group": 10506
+    },
+    "105063": {
+        "ID": 105063,
+        "Name": "函数-爆炸火环",
+        "Icon": "T_Item10206",
+        "Group": 10506,
+        "Quality": 5
+    },
+    "105071": {
+        "ID": 105071,
+        "Name": "函数-易燃易爆",
+        "Icon": "T_Item10207",
+        "Group": 10507,
+        "Quality": 3,
+        "Desc": "<Text_3_B>占用持续槽位。每隔</><Text_3_T>12.5</><Text_3_B>秒，对附近最多</><Text_3_T>-1</><Text_3_B>名敌人施加异化标记</>"
+    },
+    "105072": {
+        "ID": 105072,
+        "Name": "函数-易燃易爆",
+        "Icon": "T_Item10207",
+        "Group": 10507,
+        "Desc": "<Text_3_B>占用持续槽位。每隔</><Text_3_T>10.2</><Text_3_B>秒，对附近最多%S1名敌人施加异化标记</>"
+    },
+    "105073": {
+        "ID": 105073,
+        "Name": "函数-易燃易爆",
+        "Icon": "T_Item10207",
+        "Group": 10507,
+        "Quality": 5,
+        "Desc": "<Text_3_B>占用持续槽位。每隔</><Text_3_T>7.9</><Text_3_B>秒，对附近最多</><Text_3_T>1</><Text_3_B>名敌人施加异化标记</>"
+    },
+    "105081": {
+        "ID": 105081,
+        "Name": "公共-异化增幅",
+        "Icon": "T_Item10208",
+        "Group": 10508,
+        "Quality": 3
+    },
+    "105082": {
+        "ID": 105082,
+        "Name": "公共-异化增幅",
+        "Icon": "T_Item10208",
+        "Group": 10508
+    },
+    "105083": {
+        "ID": 105083,
+        "Name": "公共-异化增幅",
+        "Icon": "T_Item10208",
+        "Group": 10508,
+        "Quality": 5
+    },
+    "105091": {
+        "ID": 105091,
+        "Name": "函数-蓄力增压",
+        "Icon": "T_Item10209",
+        "Group": 10509,
+        "Quality": 3
+    },
+    "105092": {
+        "ID": 105092,
+        "Name": "函数-蓄力增压",
+        "Icon": "T_Item10209",
+        "Group": 10509
+    },
+    "105093": {
+        "ID": 105093,
+        "Name": "函数-蓄力增压",
+        "Icon": "T_Item10209",
+        "Group": 10509,
+        "Quality": 5
+    },
+    "105101": {
+        "ID": 105101,
+        "Name": "公共-防御击穿",
+        "Icon": "T_Item10210",
+        "Group": 10510,
+        "Quality": 3
+    },
+    "105105": {
+        "ID": 105105,
+        "Name": "公共-防御击穿",
+        "Icon": "T_Item10210",
+        "Group": 10510
+    },
+    "105103": {
+        "ID": 105103,
+        "Name": "公共-防御击穿",
+        "Icon": "T_Item10210",
+        "Group": 10510,
+        "Quality": 5
+    },
+    "105111": {
+        "ID": 105111,
+        "Name": "函数-高温增幅",
+        "Icon": "T_Item10211",
+        "Group": 10511,
+        "Quality": 3,
+        "Desc": "<Text_3_B>燃烧效果将变成鬼火，鬼火无法爆炸也无法熄灭，层数上限提升至99，且会降低目标</><Text_3_T>2.9%</><Text_3_B>攻击力</>"
+    },
+    "105112": {
+        "ID": 105112,
+        "Name": "函数-高温增幅",
+        "Icon": "T_Item10211",
+        "Group": 10511,
+        "Desc": "<Text_3_B>燃烧效果将变成鬼火，鬼火无法爆炸也无法熄灭，层数上限提升至99，且会降低目标</><Text_3_T>7.9%</><Text_3_B>攻击力</>"
+    },
+    "105113": {
+        "ID": 105113,
+        "Name": "函数-高温增幅",
+        "Icon": "T_Item10211",
+        "Group": 10511,
+        "Quality": 5,
+        "Desc": "<Text_3_B>燃烧效果将变成鬼火，鬼火无法爆炸也无法熄灭，层数上限提升至99，且会降低目标</><Text_3_T>13%</><Text_3_B>攻击力</>"
+    },
+    "105121": {
+        "ID": 105121,
+        "Name": "公共-绝境反攻",
+        "Icon": "T_Item10212",
+        "Group": 10512,
+        "Quality": 3
+    },
+    "105122": {
+        "ID": 105122,
+        "Name": "公共-绝境反攻",
+        "Icon": "T_Item10212",
+        "Group": 10512
+    },
+    "105123": {
+        "ID": 105123,
+        "Name": "公共-绝境反攻",
+        "Icon": "T_Item10212",
+        "Group": 10512,
+        "Quality": 5
+    },
+    "105131": {
+        "ID": 105131,
+        "Name": "函数-损则有孚",
+        "Icon": "T_Item10213",
+        "Group": 10513,
+        "Quality": 3
+    },
+    "105132": {
+        "ID": 105132,
+        "Name": "函数-损则有孚",
+        "Icon": "T_Item10213",
+        "Group": 10513
+    },
+    "105133": {
+        "ID": 105133,
+        "Name": "函数-损则有孚",
+        "Icon": "T_Item10213",
+        "Group": 10513,
+        "Quality": 5
+    },
+    "105141": {
+        "ID": 105141,
+        "Name": "函数-多重爆炸",
+        "Icon": "T_Item10214",
+        "Group": 10514,
+        "Quality": 3
+    },
+    "105142": {
+        "ID": 105142,
+        "Name": "函数-多重爆炸",
+        "Icon": "T_Item10214",
+        "Group": 10514
+    },
+    "105143": {
+        "ID": 105143,
+        "Name": "函数-多重爆炸",
+        "Icon": "T_Item10214",
+        "Group": 10514,
+        "Quality": 5
+    },
+    "105151": {
+        "ID": 105151,
+        "Name": "函数-火环反击",
+        "Icon": "T_Item10214",
+        "Group": 10515,
+        "Quality": 3
+    },
+    "105152": {
+        "ID": 105152,
+        "Name": "函数-火环反击",
+        "Icon": "T_Item10214",
+        "Group": 10515
+    },
+    "105153": {
+        "ID": 105153,
+        "Name": "函数-火环反击",
+        "Icon": "T_Item10214",
+        "Group": 10515,
+        "Quality": 5
+    },
+    "105161": {
+        "ID": 105161,
+        "Name": "函数-高温增幅",
+        "Icon": "T_Item10211",
+        "Group": 10516,
+        "Quality": 3
+    },
+    "105162": {
+        "ID": 105162,
+        "Name": "函数-高温增幅",
+        "Icon": "T_Item10211",
+        "Group": 10516
+    },
+    "105163": {
+        "ID": 105163,
+        "Name": "函数-高温增幅",
+        "Icon": "T_Item10211",
+        "Group": 10516,
+        "Quality": 5
+    },
+    "105171": {
+        "ID": 105171,
+        "Name": "私有-鬼火燃烧",
+        "Icon": "T_Item10212",
+        "Group": 10517,
+        "Quality": 3
+    },
+    "105172": {
+        "ID": 105172,
+        "Name": "私有-鬼火燃烧",
+        "Icon": "T_Item10212",
+        "Group": 10517
+    },
+    "105173": {
+        "ID": 105173,
+        "Name": "私有-鬼火燃烧",
+        "Icon": "T_Item10212",
+        "Group": 10517,
+        "Quality": 5
+    },
+    "105181": {
+        "ID": 105181,
+        "Name": "私有-触发蓝屏",
+        "Icon": "T_Item10213",
+        "Group": 10518,
+        "Quality": 3
+    },
+    "105182": {
+        "ID": 105182,
+        "Name": "私有-触发蓝屏",
+        "Icon": "T_Item10213",
+        "Group": 10518
+    },
+    "105183": {
+        "ID": 105183,
+        "Name": "私有-触发蓝屏",
+        "Icon": "T_Item10213",
+        "Group": 10518,
+        "Quality": 5
+    },
+    "105191": {
+        "ID": 105191,
+        "Name": "私有-痛觉残留",
+        "Icon": "T_Item10214",
+        "Group": 10519,
+        "Quality": 3
+    },
+    "105192": {
+        "ID": 105192,
+        "Name": "私有-痛觉残留",
+        "Icon": "T_Item10214",
+        "Group": 10519
+    },
+    "105193": {
+        "ID": 105193,
+        "Name": "私有-痛觉残留",
+        "Icon": "T_Item10214",
+        "Group": 10519,
+        "Quality": 5
+    },
+    "105201": {
+        "ID": 105201,
+        "Name": "私有-异能电击",
+        "Icon": "T_Item10214",
+        "Group": 10520,
+        "Quality": 3
+    },
+    "105202": {
+        "ID": 105202,
+        "Name": "私有-异能电击",
+        "Icon": "T_Item10214",
+        "Group": 10520
+    },
+    "105203": {
+        "ID": 105203,
+        "Name": "私有-异能电击",
+        "Icon": "T_Item10214",
+        "Group": 10520,
+        "Quality": 5
+    },
+    "106011": {
+        "ID": 106011,
+        "Name": "公共-万有引力",
+        "Icon": "T_Item10601",
+        "Group": 10601,
+        "Quality": 3
+    },
+    "106012": {
+        "ID": 106012,
+        "Name": "公共-万有引力",
+        "Icon": "T_Item10601",
+        "Group": 10601
+    },
+    "106013": {
+        "ID": 106013,
+        "Name": "公共-万有引力",
+        "Icon": "T_Item10601",
+        "Group": 10601,
+        "Quality": 5
+    },
+    "106021": {
+        "ID": 106021,
+        "Name": "公共-力场展开",
+        "Icon": "T_Item10602",
+        "Group": 10602,
+        "Quality": 3
+    },
+    "106022": {
+        "ID": 106022,
+        "Name": "公共-力场展开",
+        "Icon": "T_Item10602",
+        "Group": 10602
+    },
+    "106023": {
+        "ID": 106023,
+        "Name": "公共-力场展开",
+        "Icon": "T_Item10602",
+        "Group": 10602,
+        "Quality": 5
+    },
+    "106031": {
+        "ID": 106031,
+        "Name": "公共-怒气返还",
+        "Icon": "T_Item10603",
+        "Group": 10603,
+        "Quality": 3
+    },
+    "106032": {
+        "ID": 106032,
+        "Name": "公共-怒气返还",
+        "Icon": "T_Item10603",
+        "Group": 10603
+    },
+    "106033": {
+        "ID": 106033,
+        "Name": "公共-怒气返还",
+        "Icon": "T_Item10603",
+        "Group": 10603,
+        "Quality": 5
+    },
+    "106041": {
+        "ID": 106041,
+        "Name": "公共-多重溢出",
+        "Icon": "T_Item10604",
+        "Group": 10604,
+        "Quality": 3
+    },
+    "106042": {
+        "ID": 106042,
+        "Name": "公共-多重溢出",
+        "Icon": "T_Item10604",
+        "Group": 10604
+    },
+    "106043": {
+        "ID": 106043,
+        "Name": "公共-多重溢出",
+        "Icon": "T_Item10604",
+        "Group": 10604,
+        "Quality": 5
+    },
+    "106051": {
+        "ID": 106051,
+        "Name": "公共-溢出增幅",
+        "Icon": "T_Item10605",
+        "Group": 10605,
+        "Quality": 3
+    },
+    "106052": {
+        "ID": 106052,
+        "Name": "公共-溢出增幅",
+        "Icon": "T_Item10605",
+        "Group": 10605
+    },
+    "106053": {
+        "ID": 106053,
+        "Name": "公共-溢出增幅",
+        "Icon": "T_Item10605",
+        "Group": 10605,
+        "Quality": 5
+    },
+    "106061": {
+        "ID": 106061,
+        "Name": "公共-强制释放",
+        "Icon": "T_Item10606",
+        "Group": 10606,
+        "Quality": 3
+    },
+    "106062": {
+        "ID": 106062,
+        "Name": "公共-强制释放",
+        "Icon": "T_Item10606",
+        "Group": 10606
+    },
+    "106063": {
+        "ID": 106063,
+        "Name": "公共-强制释放",
+        "Icon": "T_Item10606",
+        "Group": 10606,
+        "Quality": 5
+    },
+    "106071": {
+        "ID": 106071,
+        "Name": "公共-安全力场",
+        "Icon": "T_Item10607",
+        "Group": 10607,
+        "Quality": 3
+    },
+    "106072": {
+        "ID": 106072,
+        "Name": "公共-安全力场",
+        "Icon": "T_Item10607",
+        "Group": 10607
+    },
+    "106073": {
+        "ID": 106073,
+        "Name": "公共-安全力场",
+        "Icon": "T_Item10607",
+        "Group": 10607,
+        "Quality": 5
+    },
+    "106081": {
+        "ID": 106081,
+        "Name": "公共-压力分摊",
+        "Icon": "T_Item10608",
+        "Group": 10608,
+        "Quality": 3
+    },
+    "106082": {
+        "ID": 106082,
+        "Name": "公共-压力分摊",
+        "Icon": "T_Item10608",
+        "Group": 10608
+    },
+    "106083": {
+        "ID": 106083,
+        "Name": "公共-压力分摊",
+        "Icon": "T_Item10608",
+        "Group": 10608,
+        "Quality": 5
+    },
+    "106091": {
+        "ID": 106091,
+        "Name": "公共-场内增压",
+        "Icon": "T_Item10609",
+        "Group": 10609,
+        "Quality": 3
+    },
+    "106092": {
+        "ID": 106092,
+        "Name": "公共-场内增压",
+        "Icon": "T_Item10609",
+        "Group": 10609
+    },
+    "106093": {
+        "ID": 106093,
+        "Name": "公共-场内增压",
+        "Icon": "T_Item10609",
+        "Group": 10609,
+        "Quality": 5
+    },
+    "106101": {
+        "ID": 106101,
+        "Name": "私有-自动寻路",
+        "Icon": "T_Item10610",
+        "Group": 10610,
+        "Quality": 3,
+        "Desc": "<Text_3_B>5米内的敌人造成的伤害降低</><Text_3_T>3.6%</>"
+    },
+    "106102": {
+        "ID": 106102,
+        "Name": "私有-自动寻路",
+        "Icon": "T_Item10610",
+        "Group": 10610,
+        "Desc": "<Text_3_B>5米内的敌人造成的伤害降低</><Text_3_T>8.6%</>"
+    },
+    "106103": {
+        "ID": 106103,
+        "Name": "私有-自动寻路",
+        "Icon": "T_Item10610",
+        "Group": 10610,
+        "Quality": 5,
+        "Desc": "<Text_3_B>5米内的敌人造成的伤害降低</><Text_3_T>14%</>"
+    },
+    "106111": {
+        "ID": 106111,
+        "Name": "公共-优势领域",
+        "Icon": "T_Item10611",
+        "Group": 10611,
+        "Quality": 3
+    },
+    "106112": {
+        "ID": 106112,
+        "Name": "公共-优势领域",
+        "Icon": "T_Item10611",
+        "Group": 10611
+    },
+    "106113": {
+        "ID": 106113,
+        "Name": "公共-优势领域",
+        "Icon": "T_Item10611",
+        "Group": 10611,
+        "Quality": 5
+    },
+    "106121": {
+        "ID": 106121,
+        "Name": "私有-常温超导",
+        "Icon": "T_Item10612",
+        "Group": 10612,
+        "Quality": 3
+    },
+    "106122": {
+        "ID": 106122,
+        "Name": "私有-常温超导",
+        "Icon": "T_Item10612",
+        "Group": 10612
+    },
+    "106123": {
+        "ID": 106123,
+        "Name": "私有-常温超导",
+        "Icon": "T_Item10612",
+        "Group": 10612,
+        "Quality": 5
+    },
+    "106131": {
+        "ID": 106131,
+        "Name": "私有-双重传导",
+        "Icon": "T_Item10613",
+        "Group": 10613,
+        "Quality": 3
+    },
+    "106132": {
+        "ID": 106132,
+        "Name": "私有-双重传导",
+        "Icon": "T_Item10613",
+        "Group": 10613
+    },
+    "106133": {
+        "ID": 106133,
+        "Name": "私有-双重传导",
+        "Icon": "T_Item10613",
+        "Group": 10613,
+        "Quality": 5
+    },
+    "106141": {
+        "ID": 106141,
+        "Name": "私有-过载磁暴",
+        "Icon": "T_Item10614",
+        "Group": 10614,
+        "Quality": 3
+    },
+    "106142": {
+        "ID": 106142,
+        "Name": "私有-过载磁暴",
+        "Icon": "T_Item10614",
+        "Group": 10614
+    },
+    "106143": {
+        "ID": 106143,
+        "Name": "私有-过载磁暴",
+        "Icon": "T_Item10614",
+        "Group": 10614,
+        "Quality": 5
+    },
+    "106151": {
+        "ID": 106151,
+        "Name": "公共-伤害溢出",
+        "Icon": "T_Item10614",
+        "Group": 10615,
+        "Quality": 3
+    },
+    "106152": {
+        "ID": 106152,
+        "Name": "公共-伤害溢出",
+        "Icon": "T_Item10614",
+        "Group": 10615
+    },
+    "106153": {
+        "ID": 106153,
+        "Name": "公共-伤害溢出",
+        "Icon": "T_Item10614",
+        "Group": 10615,
+        "Quality": 5
+    },
+    "107011": {
+        "ID": 107011,
+        "Name": "永恒冥王·",
+        "Icon": "T_Item10601",
+        "Group": 10701,
+        "Quality": 3,
+        "Desc": ""
+    },
+    "107012": {
+        "ID": 107012,
+        "Name": "永恒冥王·",
+        "Icon": "T_Item10601",
+        "Group": 10701,
+        "Desc": ""
+    },
+    "107013": {
+        "ID": 107013,
+        "Name": "永恒冥王·",
+        "Icon": "T_Item10601",
+        "Group": 10701,
+        "Quality": 5,
+        "Desc": ""
+    },
+    "107021": {
+        "ID": 107021,
+        "Name": "公共-多线爆发",
+        "Icon": "T_Item10602",
+        "Group": 10702,
+        "Quality": 3
+    },
+    "107022": {
+        "ID": 107022,
+        "Name": "公共-多线爆发",
+        "Icon": "T_Item10602",
+        "Group": 10702
+    },
+    "107023": {
+        "ID": 107023,
+        "Name": "公共-多线爆发",
+        "Icon": "T_Item10602",
+        "Group": 10702,
+        "Quality": 5
+    },
+    "107031": {
+        "ID": 107031,
+        "Name": "怒气回调-冥王",
+        "Icon": "T_Item10603",
+        "Group": 10703,
+        "Quality": 3,
+        "Desc": "<Text_3_B>占用冲刺槽位。冲刺后获得</><Text_3_T>5.3%</><Text_3_B>减伤护盾，持续0.5秒</>"
+    },
+    "107032": {
+        "ID": 107032,
+        "Name": "怒气回调-冥王",
+        "Icon": "T_Item10603",
+        "Group": 10703,
+        "Desc": "<Text_3_B>占用冲刺槽位。冲刺后获得</><Text_3_T>16%</><Text_3_B>减伤护盾，持续0.5秒</>"
+    },
+    "107033": {
+        "ID": 107033,
+        "Name": "怒气回调-冥王",
+        "Icon": "T_Item10603",
+        "Group": 10703,
+        "Quality": 5,
+        "Desc": "<Text_3_B>占用冲刺槽位。冲刺后获得</><Text_3_T>27%</><Text_3_B>减伤护盾，持续0.5秒</>"
+    },
+    "107041": {
+        "ID": 107041,
+        "Name": "公共-高速防护",
+        "Icon": "T_Item10604",
+        "Group": 10704,
+        "Quality": 3
+    },
+    "107042": {
+        "ID": 107042,
+        "Name": "公共-高速防护",
+        "Icon": "T_Item10604",
+        "Group": 10704
+    },
+    "107043": {
+        "ID": 107043,
+        "Name": "公共-高速防护",
+        "Icon": "T_Item10604",
+        "Group": 10704,
+        "Quality": 5
+    },
+    "107051": {
+        "ID": 107051,
+        "Name": "公共-防护程序",
+        "Icon": "T_Item10605",
+        "Group": 10705,
+        "Quality": 3
+    },
+    "107052": {
+        "ID": 107052,
+        "Name": "公共-防护程序",
+        "Icon": "T_Item10605",
+        "Group": 10705
+    },
+    "107053": {
+        "ID": 107053,
+        "Name": "公共-防护程序",
+        "Icon": "T_Item10605",
+        "Group": 10705,
+        "Quality": 5
+    },
+    "107061": {
+        "ID": 107061,
+        "Name": "公共-自主创建",
+        "Icon": "T_Item10606",
+        "Group": 10706,
+        "Quality": 3
+    },
+    "107062": {
+        "ID": 107062,
+        "Name": "公共-自主创建",
+        "Icon": "T_Item10606",
+        "Group": 10706
+    },
+    "107063": {
+        "ID": 107063,
+        "Name": "公共-自主创建",
+        "Icon": "T_Item10606",
+        "Group": 10706,
+        "Quality": 5
+    },
+    "107071": {
+        "ID": 107071,
+        "Name": "公共-风险对冲",
+        "Icon": "T_Item10607",
+        "Group": 10707,
+        "Quality": 3
+    },
+    "107072": {
+        "ID": 107072,
+        "Name": "公共-风险对冲",
+        "Icon": "T_Item10607",
+        "Group": 10707
+    },
+    "107073": {
+        "ID": 107073,
+        "Name": "公共-风险对冲",
+        "Icon": "T_Item10607",
+        "Group": 10707,
+        "Quality": 5
+    },
+    "107081": {
+        "ID": 107081,
+        "Name": "公共-伤害返还",
+        "Icon": "T_Item10608",
+        "Group": 10708,
+        "Quality": 3
+    },
+    "107082": {
+        "ID": 107082,
+        "Name": "公共-伤害返还",
+        "Icon": "T_Item10608",
+        "Group": 10708
+    },
+    "107083": {
+        "ID": 107083,
+        "Name": "公共-伤害返还",
+        "Icon": "T_Item10608",
+        "Group": 10708,
+        "Quality": 5
+    },
+    "107091": {
+        "ID": 107091,
+        "Name": "公共-创建对象",
+        "Icon": "T_Item10609",
+        "Group": 10709,
+        "Quality": 3
+    },
+    "107092": {
+        "ID": 107092,
+        "Name": "公共-创建对象",
+        "Icon": "T_Item10609",
+        "Group": 10709
+    },
+    "107093": {
+        "ID": 107093,
+        "Name": "公共-创建对象",
+        "Icon": "T_Item10609",
+        "Group": 10709,
+        "Quality": 5
+    },
+    "107101": {
+        "ID": 107101,
+        "Name": "公共-链式反应",
+        "Icon": "T_Item10610",
+        "Group": 10710,
+        "Quality": 3
+    },
+    "107102": {
+        "ID": 107102,
+        "Name": "公共-链式反应",
+        "Icon": "T_Item10610",
+        "Group": 10710
+    },
+    "107103": {
+        "ID": 107103,
+        "Name": "公共-链式反应",
+        "Icon": "T_Item10610",
+        "Group": 10710,
+        "Quality": 5
+    },
+    "107111": {
+        "ID": 107111,
+        "Name": "私有-螺旋增压",
+        "Icon": "T_Item10611",
+        "Group": 10711,
+        "Quality": 3
+    },
+    "107112": {
+        "ID": 107112,
+        "Name": "私有-螺旋增压",
+        "Icon": "T_Item10611",
+        "Group": 10711
+    },
+    "107113": {
+        "ID": 107113,
+        "Name": "私有-螺旋增压",
+        "Icon": "T_Item10611",
+        "Group": 10711,
+        "Quality": 5
+    },
+    "107121": {
+        "ID": 107121,
+        "Name": "私有-自动寻路",
+        "Icon": "T_Item10612",
+        "Group": 10712,
+        "Quality": 3
+    },
+    "107122": {
+        "ID": 107122,
+        "Name": "私有-自动寻路",
+        "Icon": "T_Item10612",
+        "Group": 10712
+    },
+    "107123": {
+        "ID": 107123,
+        "Name": "私有-自动寻路",
+        "Icon": "T_Item10612",
+        "Group": 10712,
+        "Quality": 5
+    },
+    "107131": {
+        "ID": 107131,
+        "Name": "公共-断线重连",
+        "Icon": "T_Item10613",
+        "Group": 10713,
+        "Quality": 3,
+        "Type": 104
+    },
+    "107132": {
+        "ID": 107132,
+        "Name": "公共-断线重连",
+        "Icon": "T_Item10613",
+        "Group": 10713,
+        "Type": 104
+    },
+    "107133": {
+        "ID": 107133,
+        "Name": "公共-断线重连",
+        "Icon": "T_Item10613",
+        "Group": 10713,
+        "Quality": 5,
+        "Type": 104
+    },
+    "107141": {
+        "ID": 107141,
+        "Name": "公共-安全协议",
+        "Icon": "T_Item10612",
+        "Group": 10714,
+        "Quality": 3
+    },
+    "107142": {
+        "ID": 107142,
+        "Name": "公共-安全协议",
+        "Icon": "T_Item10612",
+        "Group": 10714
+    },
+    "107143": {
+        "ID": 107143,
+        "Name": "公共-安全协议",
+        "Icon": "T_Item10612",
+        "Group": 10714,
+        "Quality": 5
+    },
+    "108011": {
+        "ID": 108011,
+        "Name": "公共-天狗之羽",
+        "Icon": "T_Item10801",
+        "Group": 10801,
+        "Quality": 3
+    },
+    "108012": {
+        "ID": 108012,
+        "Name": "公共-天狗之羽",
+        "Icon": "T_Item10801",
+        "Group": 10801
+    },
+    "108013": {
+        "ID": 108013,
+        "Name": "公共-天狗之羽",
+        "Icon": "T_Item10801",
+        "Group": 10801,
+        "Quality": 5
+    },
+    "108021": {
+        "ID": 108021,
+        "Name": "公共-伤害递增",
+        "Icon": "T_Item10802",
+        "Group": 10802,
+        "Quality": 3
+    },
+    "108022": {
+        "ID": 108022,
+        "Name": "公共-伤害递增",
+        "Icon": "T_Item10802",
+        "Group": 10802
+    },
+    "108023": {
+        "ID": 108023,
+        "Name": "公共-伤害递增",
+        "Icon": "T_Item10802",
+        "Group": 10802,
+        "Quality": 5
+    },
+    "108031": {
+        "ID": 108031,
+        "Name": "怒气回调-天狗",
+        "Icon": "T_Item10803",
+        "Group": 10803,
+        "Quality": 3,
+        "Desc": ""
+    },
+    "108032": {
+        "ID": 108032,
+        "Name": "怒气回调-天狗",
+        "Icon": "T_Item10803",
+        "Group": 10803,
+        "Desc": ""
+    },
+    "108033": {
+        "ID": 108033,
+        "Name": "怒气回调-天狗",
+        "Icon": "T_Item10803",
+        "Group": 10803,
+        "Quality": 5,
+        "Desc": ""
+    },
+    "108041": {
+        "ID": 108041,
+        "Name": "跳转回调-天狗",
+        "Icon": "T_Item10804",
+        "Group": 10804,
+        "Quality": 3,
+        "Desc": ""
+    },
+    "108042": {
+        "ID": 108042,
+        "Name": "跳转回调-天狗",
+        "Icon": "T_Item10804",
+        "Group": 10804,
+        "Desc": ""
+    },
+    "108043": {
+        "ID": 108043,
+        "Name": "跳转回调-天狗",
+        "Icon": "T_Item10804",
+        "Group": 10804,
+        "Quality": 5,
+        "Desc": ""
+    },
+    "108051": {
+        "ID": 108051,
+        "Name": "公共-神经网络",
+        "Icon": "T_Item10805",
+        "Group": 10805,
+        "Quality": 3
+    },
+    "108052": {
+        "ID": 108052,
+        "Name": "公共-神经网络",
+        "Icon": "T_Item10805",
+        "Group": 10805
+    },
+    "108053": {
+        "ID": 108053,
+        "Name": "公共-神经网络",
+        "Icon": "T_Item10805",
+        "Group": 10805,
+        "Quality": 5
+    },
+    "108061": {
+        "ID": 108061,
+        "Name": "公共-深度学习",
+        "Icon": "T_Item10806",
+        "Group": 10806,
+        "Quality": 3
+    },
+    "108062": {
+        "ID": 108062,
+        "Name": "公共-深度学习",
+        "Icon": "T_Item10806",
+        "Group": 10806
+    },
+    "108063": {
+        "ID": 108063,
+        "Name": "公共-深度学习",
+        "Icon": "T_Item10806",
+        "Group": 10806,
+        "Quality": 5
+    },
+    "108071": {
+        "ID": 108071,
+        "Name": "公共-子弹缓冲",
+        "Icon": "T_Item10807",
+        "Group": 10807,
+        "Quality": 3
+    },
+    "108072": {
+        "ID": 108072,
+        "Name": "公共-子弹缓冲",
+        "Icon": "T_Item10807",
+        "Group": 10807
+    },
+    "108073": {
+        "ID": 108073,
+        "Name": "公共-子弹缓冲",
+        "Icon": "T_Item10807",
+        "Group": 10807,
+        "Quality": 5
+    },
+    "108081": {
+        "ID": 108081,
+        "Name": "公共-信号增幅",
+        "Icon": "T_Item10808",
+        "Group": 10808,
+        "Quality": 3
+    },
+    "108082": {
+        "ID": 108082,
+        "Name": "公共-信号增幅",
+        "Icon": "T_Item10808",
+        "Group": 10808
+    },
+    "108083": {
+        "ID": 108083,
+        "Name": "公共-信号增幅",
+        "Icon": "T_Item10808",
+        "Group": 10808,
+        "Quality": 5
+    },
+    "108091": {
+        "ID": 108091,
+        "Name": "公共-指数累积",
+        "Icon": "T_Item10809",
+        "Group": 10809,
+        "Quality": 3
+    },
+    "108092": {
+        "ID": 108092,
+        "Name": "公共-指数累积",
+        "Icon": "T_Item10809",
+        "Group": 10809
+    },
+    "108093": {
+        "ID": 108093,
+        "Name": "公共-指数累积",
+        "Icon": "T_Item10809",
+        "Group": 10809,
+        "Quality": 5
+    },
+    "108101": {
+        "ID": 108101,
+        "Name": "公共-加深增幅",
+        "Icon": "T_Item10810",
+        "Group": 10810,
+        "Quality": 3
+    },
+    "108102": {
+        "ID": 108102,
+        "Name": "公共-加深增幅",
+        "Icon": "T_Item10810",
+        "Group": 10810
+    },
+    "108103": {
+        "ID": 108103,
+        "Name": "公共-加深增幅",
+        "Icon": "T_Item10810",
+        "Group": 10810,
+        "Quality": 5
+    },
+    "108111": {
+        "ID": 108111,
+        "Name": "公共-指数累积",
+        "Icon": "T_Item10811",
+        "Group": 10811,
+        "Quality": 3
+    },
+    "108112": {
+        "ID": 108112,
+        "Name": "公共-指数累积",
+        "Icon": "T_Item10811",
+        "Group": 10811
+    },
+    "108113": {
+        "ID": 108113,
+        "Name": "公共-指数累积",
+        "Icon": "T_Item10811",
+        "Group": 10811,
+        "Quality": 5
+    },
+    "108121": {
+        "ID": 108121,
+        "Name": "公共-加深增幅",
+        "Icon": "T_Item10814",
+        "Group": 10812,
+        "Quality": 3
+    },
+    "108122": {
+        "ID": 108122,
+        "Name": "公共-加深增幅",
+        "Icon": "T_Item10814",
+        "Group": 10812
+    },
+    "108123": {
+        "ID": 108123,
+        "Name": "公共-加深增幅",
+        "Icon": "T_Item10814",
+        "Group": 10812,
+        "Quality": 5
+    },
+    "108131": {
+        "ID": 108131,
+        "Name": "公共-效果传递",
+        "Icon": "T_Item10813",
+        "Group": 10813,
+        "Quality": 3
+    },
+    "108132": {
+        "ID": 108132,
+        "Name": "公共-效果传递",
+        "Icon": "T_Item10813",
+        "Group": 10813
+    },
+    "108133": {
+        "ID": 108133,
+        "Name": "公共-效果传递",
+        "Icon": "T_Item10813",
+        "Group": 10813,
+        "Quality": 5
+    },
+    "108141": {
+        "ID": 108141,
+        "Name": "公共-威慑作用",
+        "Icon": "T_Item10814",
+        "Group": 10814,
+        "Quality": 3
+    },
+    "108142": {
+        "ID": 108142,
+        "Name": "公共-威慑作用",
+        "Icon": "T_Item10814",
+        "Group": 10814
+    },
+    "108143": {
+        "ID": 108143,
+        "Name": "公共-威慑作用",
+        "Icon": "T_Item10814",
+        "Group": 10814,
+        "Quality": 5
+    },
+    "108151": {
+        "ID": 108151,
+        "Name": "公共-体力窃取",
+        "Icon": "T_Item10813",
+        "Group": 10815,
+        "Quality": 3
+    },
+    "108152": {
+        "ID": 108152,
+        "Name": "公共-体力窃取",
+        "Icon": "T_Item10813",
+        "Group": 10815
+    },
+    "108153": {
+        "ID": 108153,
+        "Name": "公共-体力窃取",
+        "Icon": "T_Item10813",
+        "Group": 10815,
+        "Quality": 5
+    },
+    "108161": {
+        "ID": 108161,
+        "Name": "公共-月蚀计算",
+        "Icon": "T_Item10813",
+        "Group": 10816,
+        "Quality": 3,
+        "Desc": ""
+    },
+    "108162": {
+        "ID": 108162,
+        "Name": "公共-月蚀计算",
+        "Icon": "T_Item10813",
+        "Group": 10816,
+        "Desc": ""
+    },
+    "108163": {
+        "ID": 108163,
+        "Name": "公共-月蚀计算",
+        "Icon": "T_Item10813",
+        "Group": 10816,
+        "Quality": 5,
+        "Desc": ""
+    },
+    "109011": {
+        "ID": 109011,
+        "Name": "公共-攻击要害",
+        "Icon": "T_Item10901",
+        "Group": 10901,
+        "Quality": 3
+    },
+    "109012": {
+        "ID": 109012,
+        "Name": "公共-攻击要害",
+        "Icon": "T_Item10901",
+        "Group": 10901
+    },
+    "109013": {
+        "ID": 109013,
+        "Name": "公共-攻击要害",
+        "Icon": "T_Item10901",
+        "Group": 10901,
+        "Quality": 5
+    },
+    "109021": {
+        "ID": 109021,
+        "Name": "公共-否定伤害",
+        "Icon": "T_Item10902",
+        "Group": 10902,
+        "Quality": 3,
+        "Desc": ""
+    },
+    "109022": {
+        "ID": 109022,
+        "Name": "公共-否定伤害",
+        "Icon": "T_Item10902",
+        "Group": 10902,
+        "Desc": ""
+    },
+    "109023": {
+        "ID": 109023,
+        "Name": "公共-否定伤害",
+        "Icon": "T_Item10902",
+        "Group": 10902,
+        "Quality": 5,
+        "Desc": ""
+    },
+    "109031": {
+        "ID": 109031,
+        "Name": "公共-月蚀冲击",
+        "Icon": "T_Item10903",
+        "Group": 10903,
+        "Quality": 3
+    },
+    "109032": {
+        "ID": 109032,
+        "Name": "公共-月蚀冲击",
+        "Icon": "T_Item10903",
+        "Group": 10903
+    },
+    "109033": {
+        "ID": 109033,
+        "Name": "公共-月蚀冲击",
+        "Icon": "T_Item10903",
+        "Group": 10903,
+        "Quality": 5
+    },
+    "109041": {
+        "ID": 109041,
+        "Name": "公共-月蚀计算",
+        "Icon": "T_Item10904",
+        "Group": 10904,
+        "Quality": 3
+    },
+    "109042": {
+        "ID": 109042,
+        "Name": "公共-月蚀计算",
+        "Icon": "T_Item10904",
+        "Group": 10904
+    },
+    "109043": {
+        "ID": 109043,
+        "Name": "公共-月蚀计算",
+        "Icon": "T_Item10904",
+        "Group": 10904,
+        "Quality": 5
+    },
+    "109051": {
+        "ID": 109051,
+        "Name": "公共-无人之境",
+        "Icon": "T_Item10905",
+        "Group": 10905,
+        "Quality": 3
+    },
+    "109052": {
+        "ID": 109052,
+        "Name": "公共-无人之境",
+        "Icon": "T_Item10905",
+        "Group": 10905
+    },
+    "109053": {
+        "ID": 109053,
+        "Name": "公共-无人之境",
+        "Icon": "T_Item10905",
+        "Group": 10905,
+        "Quality": 5
+    },
+    "109061": {
+        "ID": 109061,
+        "Name": "公共-否定伤害",
+        "Icon": "T_Item10906",
+        "Group": 10906,
+        "Quality": 3
+    },
+    "109062": {
+        "ID": 109062,
+        "Name": "公共-否定伤害",
+        "Icon": "T_Item10906",
+        "Group": 10906
+    },
+    "109063": {
+        "ID": 109063,
+        "Name": "公共-否定伤害",
+        "Icon": "T_Item10906",
+        "Group": 10906,
+        "Quality": 5
+    },
+    "109071": {
+        "ID": 109071,
+        "Name": "私有-月蚀雷击",
+        "Icon": "T_Item10907",
+        "Group": 10907,
+        "Quality": 3,
+        "Desc": ""
+    },
+    "109072": {
+        "ID": 109072,
+        "Name": "私有-月蚀雷击",
+        "Icon": "T_Item10907",
+        "Group": 10907,
+        "Desc": ""
+    },
+    "109073": {
+        "ID": 109073,
+        "Name": "私有-月蚀雷击",
+        "Icon": "T_Item10907",
+        "Group": 10907,
+        "Quality": 5,
+        "Desc": ""
+    },
+    "109081": {
+        "ID": 109081,
+        "Name": "公共-超频模式",
+        "Icon": "T_Item10908",
+        "Group": 10908,
+        "Quality": 3
+    },
+    "109082": {
+        "ID": 109082,
+        "Name": "公共-超频模式",
+        "Icon": "T_Item10908",
+        "Group": 10908
+    },
+    "109083": {
+        "ID": 109083,
+        "Name": "公共-超频模式",
+        "Icon": "T_Item10908",
+        "Group": 10908,
+        "Quality": 5
+    },
+    "109091": {
+        "ID": 109091,
+        "Name": "公共-全局增幅",
+        "Icon": "T_Item10909",
+        "Group": 10909,
+        "Quality": 3
+    },
+    "109092": {
+        "ID": 109092,
+        "Name": "公共-全局增幅",
+        "Icon": "T_Item10909",
+        "Group": 10909
+    },
+    "109093": {
+        "ID": 109093,
+        "Name": "公共-全局增幅",
+        "Icon": "T_Item10909",
+        "Group": 10909,
+        "Quality": 5
+    },
+    "109101": {
+        "ID": 109101,
+        "Name": "私有-月蚀爆发",
+        "Icon": "T_Item10910",
+        "Group": 10910,
+        "Quality": 3,
+        "Desc": ""
+    },
+    "109102": {
+        "ID": 109102,
+        "Name": "私有-月蚀爆发",
+        "Icon": "T_Item10910",
+        "Group": 10910,
+        "Desc": ""
+    },
+    "109103": {
+        "ID": 109103,
+        "Name": "私有-月蚀爆发",
+        "Icon": "T_Item10910",
+        "Group": 10910,
+        "Quality": 5,
+        "Desc": ""
+    },
+    "109111": {
+        "ID": 109111,
+        "Name": "公共-多线并行",
+        "Icon": "T_Item10911",
+        "Group": 10911,
+        "Quality": 3
+    },
+    "109112": {
+        "ID": 109112,
+        "Name": "公共-多线并行",
+        "Icon": "T_Item10911",
+        "Group": 10911
+    },
+    "109113": {
+        "ID": 109113,
+        "Name": "公共-多线并行",
+        "Icon": "T_Item10911",
+        "Group": 10911,
+        "Quality": 5
+    },
+    "109121": {
+        "ID": 109121,
+        "Name": "公共-暴力破解",
+        "Icon": "T_Item10912",
+        "Group": 10912,
+        "Quality": 3
+    },
+    "109122": {
+        "ID": 109122,
+        "Name": "公共-暴力破解",
+        "Icon": "T_Item10912",
+        "Group": 10912
+    },
+    "109123": {
+        "ID": 109123,
+        "Name": "公共-暴力破解",
+        "Icon": "T_Item10912",
+        "Group": 10912,
+        "Quality": 5
+    },
+    "109131": {
+        "ID": 109131,
+        "Name": "私有-月蚀雷击",
+        "Icon": "T_Item10913",
+        "Group": 10913,
+        "Quality": 3
+    },
+    "109132": {
+        "ID": 109132,
+        "Name": "私有-月蚀雷击",
+        "Icon": "T_Item10913",
+        "Group": 10913
+    },
+    "109133": {
+        "ID": 109133,
+        "Name": "私有-月蚀雷击",
+        "Icon": "T_Item10913",
+        "Group": 10913,
+        "Quality": 5
+    },
+    "109141": {
+        "ID": 109141,
+        "Name": "私有-多重爆发",
+        "Icon": "T_Item10914",
+        "Group": 10914,
+        "Quality": 3
+    },
+    "109142": {
+        "ID": 109142,
+        "Name": "私有-多重爆发",
+        "Icon": "T_Item10914",
+        "Group": 10914
+    },
+    "109143": {
+        "ID": 109143,
+        "Name": "私有-多重爆发",
+        "Icon": "T_Item10914",
+        "Group": 10914,
+        "Quality": 5
+    },
+    "109151": {
+        "ID": 109151,
+        "Name": "私有-月蚀爆发",
+        "Icon": "T_Item10915",
+        "Group": 10915,
+        "Quality": 3
+    },
+    "109152": {
+        "ID": 109152,
+        "Name": "私有-月蚀爆发",
+        "Icon": "T_Item10915",
+        "Group": 10915
+    },
+    "109153": {
+        "ID": 109153,
+        "Name": "私有-月蚀爆发",
+        "Icon": "T_Item10915",
+        "Group": 10915,
+        "Quality": 5
+    },
+    "109161": {
+        "ID": 109161,
+        "Name": "函数-负载均衡",
+        "Icon": "T_Item10911",
+        "Group": 10916,
+        "Quality": 3
+    },
+    "109162": {
+        "ID": 109162,
+        "Name": "函数-负载均衡",
+        "Icon": "T_Item10911",
+        "Group": 10916
+    },
+    "109163": {
+        "ID": 109163,
+        "Name": "函数-负载均衡",
+        "Icon": "T_Item10911",
+        "Group": 10916,
+        "Quality": 5
+    },
+    "109171": {
+        "ID": 109171,
+        "Name": "回调-代码仓库",
+        "Icon": "T_Item10912",
+        "Group": 10917,
+        "Quality": 3
+    },
+    "109172": {
+        "ID": 109172,
+        "Name": "回调-代码仓库",
+        "Icon": "T_Item10912",
+        "Group": 10917
+    },
+    "109173": {
+        "ID": 109173,
+        "Name": "回调-代码仓库",
+        "Icon": "T_Item10912",
+        "Group": 10917,
+        "Quality": 5
+    },
+    "109181": {
+        "ID": 109181,
+        "Name": "函数-负载均衡",
+        "Icon": "T_Item10911",
+        "Group": 10918,
+        "Quality": 3
+    },
+    "109182": {
+        "ID": 109182,
+        "Name": "函数-负载均衡",
+        "Icon": "T_Item10911",
+        "Group": 10918
+    },
+    "109183": {
+        "ID": 109183,
+        "Name": "函数-负载均衡",
+        "Icon": "T_Item10911",
+        "Group": 10918,
+        "Quality": 5
+    },
+    "109191": {
+        "ID": 109191,
+        "Name": "回调-代码仓库",
+        "Icon": "T_Item10912",
+        "Group": 10919,
+        "Quality": 3
+    },
+    "109201": {
+        "ID": 109201,
+        "Name": "回调-代码仓库",
+        "Icon": "T_Item10912",
+        "Group": 10920,
+        "Quality": 3
+    },
+    "109211": {
+        "ID": 109211,
+        "Name": "回调-接肢百足",
+        "Icon": "T_Item10921",
+        "Group": 10921,
+        "Quality": 3,
+        "Type": 104
+    },
+    "109221": {
+        "ID": 109221,
+        "Name": "回调-末法龙王",
+        "Icon": "T_Item10922",
+        "Group": 10922,
+        "Quality": 3
+    },
+    "109231": {
+        "ID": 109231,
+        "Name": "回调-天鼓雷公",
+        "Icon": "T_Item10923",
+        "Group": 10923,
+        "Quality": 3
+    },
+    "109241": {
+        "ID": 109241,
+        "Name": "回调-永恒冥王",
+        "Icon": "T_Item10924",
+        "Group": 10924,
+        "Quality": 3,
+        "Type": 104
+    },
+    "109251": {
+        "ID": 109251,
+        "Name": "回调-蚀月天狗",
+        "Icon": "T_Item10925",
+        "Group": 10925,
+        "Quality": 3,
+        "Type": 104
+    },
+    "109311": {
+        "ID": 109311,
+        "Name": "回调-稀有概率",
+        "Icon": "T_Item10931",
+        "Group": 10931,
+        "Quality": 3,
+        "Type": 104
+    },
+    "109321": {
+        "ID": 109321,
+        "Name": "回调-传奇概率",
+        "Icon": "T_Item10932",
+        "Group": 10932,
+        "Quality": 3,
+        "Type": 104
+    },
+    "109331": {
+        "ID": 109331,
+        "Name": "回调-代码补全",
+        "Icon": "T_Item10933",
+        "Group": 10933,
+        "Quality": 3,
+        "Type": 104
+    },
+    "201211": {
+        "ID": 201211,
+        "Name": "函数-高温足刃",
+        "Icon": "T_Item20121",
+        "Group": 20121,
+        "Quality": 3,
+        "Desc": "<Text_3_B>【高温】可释放被火焰附魔的截肢百足技能,并使其基础伤害提高20%，造成伤害时有</><Text_3_T>10%</><Text_3_B>施加燃烧</>"
+    },
+    "201212": {
+        "ID": 201212,
+        "Name": "函数-高温足刃",
+        "Icon": "T_Item20121",
+        "Group": 20121,
+        "Desc": "<Text_3_B>【高温】可释放被火焰附魔的截肢百足技能,并使其基础伤害提高20%，造成伤害时有</><Text_3_T>20%</><Text_3_B>施加燃烧</>"
+    },
+    "201213": {
+        "ID": 201213,
+        "Name": "函数-高温足刃",
+        "Icon": "T_Item20121",
+        "Group": 20121,
+        "Quality": 5,
+        "Desc": "<Text_3_B>【高温】可释放被火焰附魔的截肢百足技能,并使其基础伤害提高20%，造成伤害时有</><Text_3_T>30%</><Text_3_B>施加燃烧</>"
+    },
+    "201311": {
+        "ID": 201311,
+        "Name": "函数-电气足刃",
+        "Icon": "T_Item20131",
+        "Group": 20131,
+        "Quality": 3,
+        "Desc": "<Text_3_B>【电系】可释放被雷电附魔的截肢百足技能,并使其破甲效率提高100%，造成伤害时有</><Text_3_T>10%</><Text_3_B>施加短路</>"
+    },
+    "201312": {
+        "ID": 201312,
+        "Name": "函数-电气足刃",
+        "Icon": "T_Item20131",
+        "Group": 20131,
+        "Desc": "<Text_3_B>【电系】可释放被雷电附魔的截肢百足技能,并使其破甲效率提高100%，造成伤害时有</><Text_3_T>20%</><Text_3_B>施加短路</>"
+    },
+    "201313": {
+        "ID": 201313,
+        "Name": "函数-电气足刃",
+        "Icon": "T_Item20131",
+        "Group": 20131,
+        "Quality": 5,
+        "Desc": "<Text_3_B>【电系】可释放被雷电附魔的截肢百足技能,并使其破甲效率提高100%，造成伤害时有</><Text_3_T>30%</><Text_3_B>施加短路</>"
+    },
+    "201611": {
+        "ID": 201611,
+        "Name": "私有-自动寻路",
+        "Icon": "T_Item20161",
+        "Group": 20161,
+        "Quality": 3,
+        "Desc": "<Text_3_B>【物理】足刃漩涡会追踪敌人，且伤害提升</><Text_3_T>50%</>"
+    },
+    "201612": {
+        "ID": 201612,
+        "Name": "私有-自动寻路",
+        "Icon": "T_Item20161",
+        "Group": 20161,
+        "Desc": "<Text_3_B>【物理】足刃漩涡会追踪敌人，且伤害提升</><Text_3_T>75%</>"
+    },
+    "201613": {
+        "ID": 201613,
+        "Name": "私有-自动寻路",
+        "Icon": "T_Item20161",
+        "Group": 20161,
+        "Quality": 5,
+        "Desc": "<Text_3_B>【物理】足刃漩涡会追踪敌人，且伤害提升</><Text_3_T>100%</>"
+    },
+    "201811": {
+        "ID": 201811,
+        "Name": "双重协议-飞溅",
+        "Icon": "T_Item20181",
+        "Group": 20181,
+        "Quality": 3,
+        "Desc": "<Text_3_B>溅射到携带天狗标记的敌人时，有</><Text_3_T>50%</><Text_3_B>概率额外触发1次</>"
+    },
+    "201812": {
+        "ID": 201812,
+        "Name": "双重协议-飞溅",
+        "Icon": "T_Item20181",
+        "Group": 20181,
+        "Desc": "<Text_3_B>溅射到携带天狗标记的敌人时，有</><Text_3_T>75%</><Text_3_B>概率额外触发1次</>"
+    },
+    "201813": {
+        "ID": 201813,
+        "Name": "双重协议-飞溅",
+        "Icon": "T_Item20181",
+        "Group": 20181,
+        "Quality": 5,
+        "Desc": "<Text_3_B>溅射到携带天狗标记的敌人时，有</><Text_3_T>100%</><Text_3_B>概率额外触发1次</>"
+    },
+    "201821": {
+        "ID": 201821,
+        "Name": "双重协议-双刃",
+        "Icon": "T_Item20182",
+        "Group": 20182,
+        "Quality": 3,
+        "Desc": "<Text_3_B>对敌人造成蚀月时，将生成1个飞刃，造成</><Text_3_T>100%</><Text_3_B>攻击的伤害</>"
+    },
+    "201822": {
+        "ID": 201822,
+        "Name": "双重协议-双刃",
+        "Icon": "T_Item20182",
+        "Group": 20182,
+        "Desc": "<Text_3_B>对敌人造成蚀月时，将生成1个飞刃，造成</><Text_3_T>150%</><Text_3_B>攻击的伤害</>"
+    },
+    "201823": {
+        "ID": 201823,
+        "Name": "双重协议-双刃",
+        "Icon": "T_Item20182",
+        "Group": 20182,
+        "Quality": 5,
+        "Desc": "<Text_3_B>对敌人造成蚀月时，将生成1个飞刃，造成</><Text_3_T>200%</><Text_3_B>攻击的伤害</>"
+    },
+    "202811": {
+        "ID": 202811,
+        "Name": "双重协议-多态",
+        "Icon": "T_Item20281",
+        "Group": 20281,
+        "Quality": 3,
+        "Desc": "<Text_3_B>【高温】敌人爆炸时，额外造成</><Text_3_T>1</><Text_3_B>次爆炸</>"
+    },
+    "202812": {
+        "ID": 202812,
+        "Name": "双重协议-多态",
+        "Icon": "T_Item20281",
+        "Group": 20281,
+        "Desc": "<Text_3_B>【高温】敌人爆炸时，额外造成</><Text_3_T>2</><Text_3_B>次爆炸</>"
+    },
+    "202813": {
+        "ID": 202813,
+        "Name": "双重协议-多态",
+        "Icon": "T_Item20281",
+        "Group": 20281,
+        "Quality": 5,
+        "Desc": "<Text_3_B>【高温】敌人爆炸时，额外造成</><Text_3_T>3</><Text_3_B>次爆炸</>"
+    },
+    "202821": {
+        "ID": 202821,
+        "Name": "双重协议-结算",
+        "Icon": "T_Item20282",
+        "Group": 20282,
+        "Quality": 3,
+        "Desc": "<Text_3_B>【高温】对燃烧敌人触发[蚀月]时，将直接引爆目标，且爆炸也有</><Text_3_T>20%</><Text_3_B>概率产生[蚀月]</>"
+    },
+    "202822": {
+        "ID": 202822,
+        "Name": "双重协议-结算",
+        "Icon": "T_Item20282",
+        "Group": 20282,
+        "Desc": "<Text_3_B>【高温】对燃烧敌人触发[蚀月]时，将直接引爆目标，且爆炸也有</><Text_3_T>30%</><Text_3_B>概率产生[蚀月]</>"
+    },
+    "202823": {
+        "ID": 202823,
+        "Name": "双重协议-结算",
+        "Icon": "T_Item20282",
+        "Group": 20282,
+        "Quality": 5,
+        "Desc": "<Text_3_B>【高温】对燃烧敌人触发[蚀月]时，将直接引爆目标，且爆炸也有</><Text_3_T>40%</><Text_3_B>概率产生[蚀月]</>"
+    },
+    "203611": {
+        "ID": 203611,
+        "Name": "双重协议-超导",
+        "Icon": "T_Item20361",
+        "Group": 20361,
+        "Quality": 3,
+        "Desc": "<Text_3_B>【电系】在场中产生的传导有</><Text_3_T>50%</><Text_3_B>概率是双重传导</>"
+    },
+    "203612": {
+        "ID": 203612,
+        "Name": "双重协议-超导",
+        "Icon": "T_Item20361",
+        "Group": 20361,
+        "Desc": "<Text_3_B>【电系】在场中产生的传导有</><Text_3_T>75%</><Text_3_B>概率是双重传导</>"
+    },
+    "203613": {
+        "ID": 203613,
+        "Name": "双重协议-超导",
+        "Icon": "T_Item20361",
+        "Group": 20361,
+        "Quality": 5,
+        "Desc": "<Text_3_B>【电系】在场中产生的传导有</><Text_3_T>100%</><Text_3_B>概率是双重传导</>"
+    },
+    "203621": {
+        "ID": 203621,
+        "Name": "双重协议-共振",
+        "Icon": "T_Item20362",
+        "Group": 20362,
+        "Quality": 3,
+        "Desc": "<Text_3_B>【电系】场中目标被电系攻击击中时有</><Text_3_T>20%</><Text_3_B>概率直接产生磁暴</>"
+    },
+    "203622": {
+        "ID": 203622,
+        "Name": "双重协议-共振",
+        "Icon": "T_Item20362",
+        "Group": 20362,
+        "Desc": "<Text_3_B>【电系】场中目标被电系攻击击中时有</><Text_3_T>30%</><Text_3_B>概率直接产生磁暴</>"
+    },
+    "203623": {
+        "ID": 203623,
+        "Name": "双重协议-共振",
+        "Icon": "T_Item20362",
+        "Group": 20362,
+        "Quality": 5,
+        "Desc": "<Text_3_B>【电系】场中目标被电系攻击击中时有</><Text_3_T>40%</><Text_3_B>概率直接产生磁暴</>"
+    },
+    "203811": {
+        "ID": 203811,
+        "Name": "双重协议-攻壳",
+        "Icon": "T_Item20381",
+        "Group": 20381,
+        "Quality": 3,
+        "Desc": "<Text_3_B>【电系】所有的雷击变成红色，雷击也会受到[蚀月]加成且有</><Text_3_T>10%</><Text_3_B>概率触发[蚀月]，但不再造成任何破甲</>"
+    },
+    "203812": {
+        "ID": 203812,
+        "Name": "双重协议-攻壳",
+        "Icon": "T_Item20381",
+        "Group": 20381,
+        "Desc": "<Text_3_B>【电系】所有的雷击变成红色，雷击也会受到[蚀月]加成且有</><Text_3_T>15%</><Text_3_B>概率触发[蚀月]，但不再造成任何破甲</>"
+    },
+    "203813": {
+        "ID": 203813,
+        "Name": "双重协议-攻壳",
+        "Icon": "T_Item20381",
+        "Group": 20381,
+        "Quality": 5,
+        "Desc": "<Text_3_B>【电系】所有的雷击变成红色，雷击也会受到[蚀月]加成且有</><Text_3_T>20%</><Text_3_B>概率触发[蚀月]，但不再造成任何破甲</>"
+    },
+    "203821": {
+        "ID": 203821,
+        "Name": "双重协议-红温",
+        "Icon": "T_Item20382",
+        "Group": 20382,
+        "Quality": 3,
+        "Tag": 0,
+        "Desc": "<Text_3_B>【电系】所有的电系攻击变为红色，红色电系攻击产生磁暴时不再造成破甲，且破甲值有</><Text_3_T>50%</><Text_3_B>转换为伤害</>"
+    },
+    "203822": {
+        "ID": 203822,
+        "Name": "双重协议-红温",
+        "Icon": "T_Item20382",
+        "Group": 20382,
+        "Desc": "<Text_3_B>【电系】所有的电系攻击变为红色，红色电系攻击产生磁暴时不再造成破甲，且破甲值有</><Text_3_T>75%</><Text_3_B>转换为伤害</>"
+    },
+    "203823": {
+        "ID": 203823,
+        "Name": "双重协议-红温",
+        "Icon": "T_Item20382",
+        "Group": 20382,
+        "Quality": 5,
+        "Desc": "<Text_3_B>【电系】所有的电系攻击变为红色，红色电系攻击产生磁暴时不再造成破甲，且破甲值有</><Text_3_T>100%</><Text_3_B>转换为伤害</>"
+    },
+    "208211": {
+        "ID": 208211,
+        "Name": "双重协议-燃烧",
+        "Icon": "T_Item20821",
+        "Group": 20821,
+        "Quality": 3,
+        "Desc": "<Text_3_B>天狗之羽添加火附魔，伤害提高20%，且有</><Text_3_T>10%</><Text_3_B>概率添加燃烧</>"
+    },
+    "208212": {
+        "ID": 208212,
+        "Name": "双重协议-燃烧",
+        "Icon": "T_Item20821",
+        "Group": 20821,
+        "Desc": "<Text_3_B>天狗之羽添加火附魔，伤害提高20%，且有</><Text_3_T>20%</><Text_3_B>概率添加燃烧</>"
+    },
+    "208213": {
+        "ID": 208213,
+        "Name": "双重协议-燃烧",
+        "Icon": "T_Item20821",
+        "Group": 20821,
+        "Quality": 5,
+        "Desc": "<Text_3_B>天狗之羽添加火附魔，伤害提高20%，且有</><Text_3_T>30%</><Text_3_B>概率添加燃烧</>"
+    },
+    "208311": {
+        "ID": 208311,
+        "Name": "双重协议-雷电",
+        "Icon": "T_Item20831",
+        "Group": 20831,
+        "Quality": 3,
+        "Desc": "<Text_3_B>天狗之羽添加雷附魔，破甲效率提高100%，且有</><Text_3_T>10%</><Text_3_B>概率添加短路</>"
+    },
+    "208312": {
+        "ID": 208312,
+        "Name": "双重协议-雷电",
+        "Icon": "T_Item20831",
+        "Group": 20831,
+        "Desc": "<Text_3_B>天狗之羽添加雷附魔，破甲效率提高100%，且有</><Text_3_T>20%</><Text_3_B>概率添加短路</>"
+    },
+    "208313": {
+        "ID": 208313,
+        "Name": "双重协议-雷电",
+        "Icon": "T_Item20831",
+        "Group": 20831,
+        "Quality": 5,
+        "Desc": "<Text_3_B>天狗之羽添加雷附魔，破甲效率提高100%，且有</><Text_3_T>30%</><Text_3_B>概率添加短路</>"
+    }
+}

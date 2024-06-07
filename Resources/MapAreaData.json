@@ -1,0 +1,305 @@
+{
+    "1": {
+        "ID": 1,
+        "AreaID": "A001",
+        "AreaName": "上城·科技区",
+        "AreaType": 1,
+        "AreaInfo": "坎-科技",
+        "PlaceTalkID": 0,
+        "CharacterID": 0
+    },
+    "2": {
+        "ID": 2,
+        "AreaID": "A002",
+        "AreaName": "上城·工业区",
+        "AreaType": 1,
+        "AreaInfo": "艮-工业",
+        "PlaceTalkID": 0,
+        "CharacterID": 0
+    },
+    "3": {
+        "ID": 3,
+        "AreaID": "A003",
+        "AreaName": "上城·文教区",
+        "AreaType": 1,
+        "AreaInfo": "震-文教",
+        "PlaceTalkID": 0,
+        "CharacterID": 0
+    },
+    "4": {
+        "ID": 4,
+        "AreaID": "A004",
+        "AreaName": "上城·金融区",
+        "AreaType": 1,
+        "AreaInfo": "巽-金融",
+        "PlaceTalkID": 0,
+        "CharacterID": 0
+    },
+    "5": {
+        "ID": 5,
+        "AreaID": "A005",
+        "AreaName": "下城区·南",
+        "AreaType": 1,
+        "AreaInfo": "下城区·南，描述。",
+        "PlaceTalkID": 0,
+        "CharacterID": 0
+    },
+    "6": {
+        "ID": 6,
+        "AreaID": "A006",
+        "AreaName": "下城区·北",
+        "AreaType": 1,
+        "AreaInfo": "下城区·北，描述。",
+        "PlaceTalkID": 0,
+        "CharacterID": 0
+    },
+    "7": {
+        "ID": 7,
+        "AreaID": "A007",
+        "AreaName": "城墙区",
+        "AreaType": 1,
+        "AreaInfo": "靠近城墙的区域，始终弥漫着稀薄的白噪，议会法律未曾涉足这里。",
+        "PlaceTalkID": 0,
+        "CharacterID": 0
+    },
+    "8": {
+        "ID": 8,
+        "AreaID": "P001",
+        "AreaName": "硅核细胞",
+        "AreaInfo": "硅核细胞，善见城巨型企业之一。从属于摩呼罗迦序列，以<研究生命科学>闻名。",
+        "AreaBelongID": "A001",
+        "PlaceTag": "扇区·坎叁柒",
+        "PlaceTalkID": 1,
+        "CharacterID": 0
+    },
+    "9": {
+        "ID": 9,
+        "AreaID": "P002",
+        "AreaName": "事务所",
+        "AreaInfo": "名侦探南柯创办的赛博侦探事务所，现在是你的栖身之所。",
+        "AreaBelongID": "A003",
+        "PlaceTag": "扇区·震叁玖",
+        "PlaceTalkID": 2,
+        "CharacterID": 0
+    },
+    "10": {
+        "ID": 10,
+        "AreaID": "P003",
+        "AreaName": "断桥孤儿院",
+        "AreaInfo": "位于断桥附近、收容孤儿的老旧福利院，已经成立了二十余年。",
+        "AreaBelongID": "A003",
+        "PlaceTag": "扇区·震肆陆",
+        "PlaceTalkID": 3,
+        "CharacterID": 0
+    },
+    "11": {
+        "ID": 11,
+        "AreaID": "P004",
+        "AreaName": "孔雀财团",
+        "AreaInfo": "孔雀财团，近几年飞速崛起的金融巨头企业。从属于迦楼罗序列，总部位于金融区朱雀大街。",
+        "AreaBelongID": "A004",
+        "PlaceTag": "扇区·巽贰伍",
+        "PlaceTalkID": 4,
+        "CharacterID": 0
+    },
+    "12": {
+        "ID": 12,
+        "AreaID": "P005",
+        "AreaName": "无名荒地",
+        "AreaInfo": "白躁乐园内，早已废弃的一块荒地。",
+        "AreaBelongID": "A007",
+        "PlaceTag": "扇区·巽零零",
+        "PlaceTalkID": 5,
+        "CharacterID": 0
+    },
+    "13": {
+        "ID": 13,
+        "AreaID": "P006",
+        "AreaName": "竹林巷",
+        "AreaInfo": "距离事务所不远的一个小巷。",
+        "AreaBelongID": "A003",
+        "PlaceTag": "扇区·艮柒玖",
+        "PlaceTalkID": 6,
+        "CharacterID": 0
+    },
+    "14": {
+        "ID": 14,
+        "AreaID": "P007",
+        "AreaName": "圣堂",
+        "AreaInfo": "降临神教的某个结社地，隐藏在废弃小巷的地底。",
+        "AreaBelongID": "A005",
+        "PlaceTag": "扇区·艮叁零",
+        "PlaceTalkID": 7,
+        "CharacterID": 0
+    },
+    "15": {
+        "ID": 15,
+        "AreaID": "P008",
+        "AreaName": "欧冶集团",
+        "AreaInfo": "欧冶集团，老牌巨型企业，善见城工业的垄断者。从属于紧那罗序列，拥有其他企业不具备的传承与底蕴。",
+        "AreaBelongID": "A002",
+        "PlaceTag": "扇区·艮叁肆",
+        "PlaceTalkID": 8,
+        "CharacterID": 0
+    },
+    "16": {
+        "ID": 16,
+        "AreaID": "P009",
+        "AreaName": "天眼局",
+        "AreaInfo": "由广目天管控的情报机构，同时也是天人议会治下最庞大的谍报系统。除了本身的官方调查员以外，赛博侦探也可以注册登记，成为雇员。",
+        "AreaBelongID": "A001",
+        "PlaceTag": "扇区·坎贰捌",
+        "PlaceTalkID": 9,
+        "CharacterID": 0
+    },
+    "17": {
+        "ID": 17,
+        "AreaID": "P010",
+        "AreaName": "护法团总部",
+        "AreaInfo": "天人议会设立的特勤机构，负责全权调查与“古神”及神教相关的案件，并通缉追捕涉案的极端份子，拥有主导小规模军事行动的权力。",
+        "AreaBelongID": "A003",
+        "PlaceTag": "扇区·震陆叁",
+        "PlaceTalkID": 10,
+        "CharacterID": 0
+    },
+    "18": {
+        "ID": 18,
+        "AreaID": "P011",
+        "AreaName": "摩天轮",
+        "AreaInfo": "白噪乐园现在的领导者是朱天。但乐园明暗处都有不怀好意的非天或徘徊者，等待着哪个不长眼的家伙擅自进入。",
+        "AreaBelongID": "A007",
+        "PlaceTag": "扇区·巽玖玖",
+        "PlaceTalkID": 11,
+        "CharacterID": 0
+    },
+    "19": {
+        "ID": 19,
+        "AreaID": "P012",
+        "AreaName": "矩阵书库",
+        "AreaInfo": "隶属于天眼局的一个超巨型的硬盘数据矩阵。根据不同的权限，从花边新闻到隐秘档案都可找到。",
+        "AreaBelongID": "A001",
+        "PlaceTag": "扇区·坎叁零",
+        "PlaceTalkID": 12,
+        "CharacterID": 0
+    },
+    "20": {
+        "ID": 20,
+        "AreaID": "P013",
+        "AreaName": "灌江公寓",
+        "AreaInfo": "护法团总部不远处的一个高级公寓区，大部分护法团和斩鬼人成员都在此居住，安保工作都显得有些多余了。",
+        "AreaBelongID": "A003",
+        "PlaceTag": "扇区·震陆柒",
+        "PlaceTalkID": 13,
+        "CharacterID": 0
+    },
+    "21": {
+        "ID": 21,
+        "AreaID": "P014",
+        "AreaName": "妙音集团",
+        "AreaInfo": "欧冶集团被拆分后的两家主体企业之一，在VR、电影、电子游戏、便携设备方面实力雄厚，是最大的娱乐集团。",
+        "AreaBelongID": "A003",
+        "PlaceTag": "扇区·震肆叁",
+        "PlaceTalkID": 14,
+        "CharacterID": 0
+    },
+    "22": {
+        "ID": 22,
+        "AreaID": "P015",
+        "AreaName": "星原巷",
+        "AreaInfo": "狭窄的居民区，道路狭窄，租金低廉，居住者鱼龙混杂。",
+        "AreaBelongID": "A007",
+        "PlaceTag": "扇区·震陆柒",
+        "PlaceTalkID": 15,
+        "CharacterID": 0
+    },
+    "23": {
+        "ID": 23,
+        "AreaID": "P016",
+        "AreaName": "乐园",
+        "AreaInfo": "靠近城墙的白噪乐园，始终弥漫着稀薄的白噪，议会法律未曾涉足这里。",
+        "AreaBelongID": "A007",
+        "PlaceTag": "扇区·巽肆叁",
+        "PlaceTalkID": 16,
+        "CharacterID": 0
+    },
+    "24": {
+        "ID": 24,
+        "AreaID": "P017",
+        "AreaName": "硅核细胞厂房",
+        "AreaInfo": "归于硅核细胞名下的厂房，实际拥有者是徐瀚文。",
+        "AreaBelongID": "A001",
+        "PlaceTag": "扇区·坎伍柒",
+        "PlaceTalkID": 17,
+        "CharacterID": 0
+    },
+    "25": {
+        "ID": 25,
+        "AreaID": "P018",
+        "AreaName": "芥川大厦",
+        "AreaInfo": "上城区的高级公寓，是「高序列」居民居住的地点。",
+        "AreaBelongID": "A003",
+        "PlaceTag": "扇区·震陆柒",
+        "PlaceTalkID": 18,
+        "CharacterID": 0
+    },
+    "26": {
+        "ID": 26,
+        "AreaID": "P019",
+        "AreaName": "烟雨路",
+        "AreaInfo": "环境幽静的居住区，是散步的好去处。",
+        "AreaBelongID": "A003",
+        "PlaceTag": "扇区·震肆陆",
+        "PlaceTalkID": 19,
+        "CharacterID": 0
+    },
+    "27": {
+        "ID": 27,
+        "AreaID": "C001",
+        "AreaName": "辉夜",
+        "AreaType": 4,
+        "AreaInfo": "",
+        "PlaceTalkID": 1008,
+        "AssociatedID": "P002",
+        "CharacterID": 1008
+    },
+    "28": {
+        "ID": 28,
+        "AreaID": "C002",
+        "AreaName": "孔雀",
+        "AreaType": 4,
+        "AreaInfo": "",
+        "PlaceTalkID": 1007,
+        "AssociatedID": "P004",
+        "CharacterID": 1007
+    },
+    "29": {
+        "ID": 29,
+        "AreaID": "C003",
+        "AreaName": "夜见",
+        "AreaType": 4,
+        "AreaInfo": "",
+        "PlaceTalkID": 1009,
+        "AssociatedID": "P010",
+        "CharacterID": 1009
+    },
+    "30": {
+        "ID": 30,
+        "AreaID": "C004",
+        "AreaName": "杨",
+        "AreaType": 4,
+        "AreaInfo": "",
+        "PlaceTalkID": 1010,
+        "AssociatedID": "P013",
+        "CharacterID": 1010
+    },
+    "31": {
+        "ID": 31,
+        "AreaID": "C005",
+        "AreaName": "纯枫",
+        "AreaType": 4,
+        "AreaInfo": "",
+        "PlaceTalkID": 1012,
+        "AssociatedID": "P015",
+        "CharacterID": 1012
+    }
+}
