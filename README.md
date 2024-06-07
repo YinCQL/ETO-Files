@@ -19,3 +19,4 @@
 > MonsterInfoData: 怪物描述</br>
 
 * 部分Resources的内容有缺失(工具问题)
+* 需要客户端请开issues
