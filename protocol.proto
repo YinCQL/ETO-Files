@@ -46,6 +46,8 @@ message ReqLogin {
     string openId = 15;
     // 额外信息
     string extra = 16;
+    // 强行登陆
+    uint32 force = 17;
 }
 
 message ResLogin {
@@ -61,6 +63,10 @@ message ResLogin {
     repeated SimpleRole roleList = 5;
     // 封禁时间 -1是永封
     string banTime = 6;
+    // 别处登陆
+    uint32 where = 7;
+    // 绑定
+    uint32 bind = 8;
 }
 
 
@@ -136,7 +142,7 @@ message ResLoginPending {
 message ReqRegisterAccount {
     // 账号
     string account = 1;
-    // 密码
+    // token
     string token = 2;
     // 访客id
     string distinctId = 3; 
@@ -160,6 +166,14 @@ message ReqRegisterAccount {
     string platform = 12;
     // 来源渠道
     string channel = 13;
+    // accesskey
+    string accesskey = 14;
+    // openId
+    string openId = 15;
+    // 额外信息
+    string extra = 16;
+    // 密码
+    string password = 17;
 }
 
 message ResRegisterAccount {
@@ -167,6 +181,8 @@ message ResRegisterAccount {
     string account = 1;
     // 账号id
     int64 uid = 2;
+    // 来源渠道
+    string channel = 3;
 }
 
 message ReqVerifyIdCard {
@@ -181,6 +197,32 @@ message ResVerifyIdCard {
     uint32 age = 1;
     // 剩余可玩时间(单位/秒 -1=无限制 0=耗尽)
     int32 remainTime = 2;
+}
+
+message ReqBindAccount {
+    // 账号
+    string account = 1;
+    // token
+    string token = 2;
+    // 平台标识
+    string platform = 3;
+    // 来源渠道
+    string channel = 4;
+    // accesskey
+    string accesskey = 5;
+    // openId
+    string openId = 6;
+    // 额外信息
+    string extra = 7;
+    // 密码
+    string password = 8;
+}
+
+message ResBindAccount {
+    // 账号
+    string account = 1;
+    // 账号id
+    int64 uid = 2;
 }
 
 message ReqEnterGame {
@@ -246,7 +288,14 @@ message ResGetPlayerInfo {
     uint32 supportPoint = 11;
     // 选择首英雄
     uint32 selectHero = 12;
-
+    // 创建时间
+    uint32 createTime = 13;
+    // 皮肤
+    uint32 skin = 14;
+    // 称号
+    uint32 title = 15;
+    // 头像
+    uint32 head = 16;
 }
 
 
@@ -282,6 +331,7 @@ message ResUpdatePlayerProperty {
 // 经验      = 10006
 // 等级      = 10007
 // 支援币    = 10008
+// 称号      = 10009
 
 
 
@@ -324,12 +374,24 @@ message ReqSetPlayerProperty {
 
 // 首英雄
 // SelectHero = 英雄ID
+// Skin = 皮肤ID
+// Head = 头像ID
 
 
 
 message ResSetPlayerProperty {
     
 }
+
+message ReqLeaveGame {
+    
+}
+
+
+message ResLeaveGame {
+   
+}
+
 
 
 message ReqGetTasksInfo {
@@ -438,10 +500,12 @@ message ResReceiveChapterReward {
 
 
 message ReqAcceptJigsaw {
-	// 物品id
-	uint32 itemId = 1;
+	// 物品
+	uint32 uid = 1;
+	//数量
+	uint32 amount = 2;
 	// 目标助手
-    uint32 target = 2;
+    uint32 target = 3;
 }
 
 
@@ -1507,6 +1571,70 @@ message ResUnequipChips {
 }
 
 
+message ReqUseGift {  
+	// 背包类型(基础=1 拓荒=2 仿生体=3 芯片=4)
+    uint32 type = 1;
+	// 物品唯一id
+    int32 uid = 2;
+    // 使用数量
+    int32 amount = 3;
+}
+
+
+message ResUseGift {  
+	// 配置id
+    int32 sid = 1;
+    // 物品id
+    int32 uid = 2;
+    // 使用数量
+    int32 amount = 3;
+    // 奖励数据(可选)
+    Reward reward = 4;
+}
+
+
+message ReqUpgradeChipLevel {
+    // 芯片唯一Id
+	uint32 itemId = 1;
+	// 提供材料(芯片填充:uid)
+    repeated Item items = 2;
+}
+
+
+message ResUpgradeChipLevel {
+	// 芯片
+	Item chip = 1;
+}
+
+
+message ReqWashChip {
+    // 芯片唯一Id
+	uint32 itemId = 1;
+	// 提供材料(芯片填充:uid)
+    repeated Item items = 2;
+}
+
+
+message ResWashChip {
+    // 装备
+	Item chip = 1;
+}
+
+
+message ReqReserveChip {
+    // 芯片唯一Id
+	uint32 itemId = 1;
+	// 是否保留(0=放弃 1=保留)
+	uint32 reserve = 2;
+}
+
+
+message ResReserveChip {
+    // 装备
+	Item chip = 1;
+}
+
+
 message ReqGetEquipPackInfo {
 
 }
@@ -1550,7 +1678,7 @@ message ResPayOrder {
     // 商品ID
     uint32 id = 1;
 	// 订单号
-    uint32 orderId = 2;
+    string orderId = 2;
 }
 
 
@@ -2532,12 +2660,8 @@ message ResComposeBagBattleItem {
 
 
 message ReqDropBagBattleBag {
-    //道具uid
-	uint32 uid = 1;
-    // 地图格子
-    uint32 x = 2;
-    //地图格子
-    uint32 y = 3;
+    //道具
+    repeated BagBattleItemDrop items = 1;
 }
 
 
@@ -2545,7 +2669,7 @@ message ReqDropBagBattleBag {
 
 message ResDropBagBattleBag {
     // 丢弃的道具
-    BagBattleItem item = 1;
+    repeated BagBattleItem items = 1;
     //进入临时背包的道具
     repeated BagBattleItem lockers = 2;
      // 合成道具信息
@@ -2720,6 +2844,30 @@ message ResGetUnlockInfo {
 }
 
 
+message ReqGetVipInfo {
+	
+}
+
+
+message ResGetVipInfo {
+	// VIP剩余天数
+    uint32 day = 1;
+    // VIP当天权益(0=没权益 1=有效未领取 2=有效已领取)
+    uint32 reward = 2;
+}
+
+
+
+message ReqTakeVipReward {  
+
+}
+
+
+message ResTakeVipReward {  
+    // 奖励数据
+    Reward reward = 1;
+}
+
 
 message ReqGetCombatInfo {
 	
@@ -2747,6 +2895,681 @@ message ResGetTeamInfo {
 
 
 
+message ReqGetBossBattleInfo {
+	
+}
+
+
+
+message ResGetBossBattleInfo {
+	// 当前难度
+    uint32 hard = 1;
+    // 当前关卡
+    uint32 level = 2;
+    // 倒计时(单位/秒)
+    uint32 time = 3;
+    // 状态(未开始=0 进行中=1 部队2未开始=2 部队2进行中=3 已结束=4)
+    uint32 status = 4;
+    // 关卡信息
+    repeated BossBattleLevel levels = 5;
+    //身上代码
+    repeated uint32 codes = 6 [packed = true];
+    //可选择代码
+    repeated uint32 others = 7 [packed = true];
+    //已经选择次数
+    uint32 count = 8;
+    //已经免费刷新次数
+    uint32 free  = 9;
+    // 本周挑战过的关卡
+    repeated uint32 challenged = 10 [packed = true];
+}
+
+
+
+message ReqPrepareBossBattle {
+    // 类型 1:免费，0默认获取
+    uint32 type = 1;
+    // 关卡id
+    uint32 id = 2;
+}
+
+
+
+message ResPrepareBossBattle {   
+    //身上代码
+    repeated uint32 codes = 1 [packed = true];
+    //可选择代码
+    repeated uint32 others = 2 [packed = true];
+    //剩余选择次数
+    uint32 count = 3;
+    //免费刷新次数
+    uint32 free  = 4;
+}
+
+
+
+message ReqGetBossBattleCodes {
+
+}
+
+
+
+message ResGetBossBattleCodes {
+    //身上代码
+    repeated uint32 codes = 1 [packed = true];
+}
+
+
+
+message ReqSelectBossBattleCode {
+    //代码
+    uint32 code = 1;
+}
+
+
+
+message ResSelectBossBattleCode {
+    //身上代码
+    repeated uint32 codes = 1 [packed = true];
+    //可选择代码
+    repeated uint32 others = 2 [packed = true];
+}
+
+
+
+message ReqEnterBossBattleLevel {
+    //关卡id
+    uint32 id = 1;
+}
+
+
+
+message ResEnterBossBattleLevel {
+    //返回怪物数据
+    repeated BossBattleMonster monsters = 1;
+    // 出站阵容列表(包括基础属性,继承属性)
+    repeated Hero heroes = 2;
+}
+
+
+
+message ReqFinishBossBattleLevel {
+    //关卡id
+    uint32 id = 1;
+    //关卡当前怪物
+    repeated BossBattleMonster monsters = 2;
+    //结果(1:成功,2:失败)
+    uint32 result = 3;
+    //当前部队
+    repeated Hero heros = 4;
+}
+
+
+
+message ResFinishBossBattleLevel {
+    //关卡id
+    uint32 id = 1;
+    //当前分数
+    uint32 point = 2;
+    // 状态(未开始=0 进行中=1 部队2未开始=2 部队2进行中=3 已结束=4)
+    uint32 status = 3;
+}
+
+
+
+message ReqResetBossBattleLevel {
+   
+}
+
+
+
+message ResResetBossBattleLevel {
+   
+}
+
+
+
+message ReqPassportInfo {
+	
+}
+
+
+
+message ResPassportInfo {
+	
+    //当前期数
+    uint32 id = 1;
+    //玩家等级
+    uint32 level = 2;
+    //倒计时(单位/秒)
+    uint32 time = 3;
+    //经验值
+    uint32 exp = 4;
+    //访客权限领取过的奖励
+    repeated uint32 visitors = 5 [packed = true];
+    //用户权限领取过的奖励
+    repeated uint32 users = 6 [packed = true];
+    //解锁的权限(0:未解锁，1：用户权限，2：管理员权限)
+    uint32 unlock = 7;
+    //本周经验
+    uint32 weekExp = 8;
+}
+
+
+
+message ReqPassportReceiveReward {
+	//奖励档位(0:访客，1:用户)
+    uint32 type = 1;
+    //等级
+    uint32 level = 2;
+}
+
+
+
+message ResPassportReceiveReward {
+	//奖励档位(0:访客，1:用户)
+    uint32 type = 1;
+    //等级
+    uint32 level = 2;
+    // 奖励数据
+    Reward reward = 3;
+}
+
+
+
+message ResUpdatePassportLevel {
+	//当前周经验
+    uint32 exp = 1;
+    //等级
+    uint32 level = 2;
+}
+
+
+
+message ReqPassportBuyLevel {
+    //购买至x等级
+    uint32 level = 1;
+}
+
+
+
+message ResPassportBuyLevel {
+    //当前等级
+    uint32 level = 1;
+    //经验
+    uint32 exp = 2;
+}
+
+
+
+message ReqGetAdventureInfo {
+	
+}
+
+
+
+message ResGetAdventureInfo {
+    // 状态
+    uint32 status = 1;
+    // 关卡id
+    uint32 level = 2;
+    // 难度
+    int32 difficulty = 3;
+    // 模式
+    uint32 mode = 4;
+    // 最高难度
+    uint32 hardest = 5;
+}
+
+
+
+message ReqCreateAdventureDifficulty {
+	// 难度
+    uint32 difficulty = 1;
+}
+
+
+
+message ResCreateAdventureDifficulty {
+
+}
+
+
+
+
+// 用于暂离后再次进入背包战斗关卡
+message ReqEnterAdventureLevel {
+	
+}
+
+
+
+
+message ResEnterAdventureLevel {
+    // 区域地图
+    AdventureMap map = 1;
+    // 当前位置
+    AdventurePos pos = 2;
+    // 深潜背包
+    repeated Item items = 3;
+    // 出战阵容列表(包括基础属性,继承属性)
+    repeated Hero heroes = 4;
+    // 随机事件
+    AdventureEvent event = 5;
+    // 拓荒病毒
+    Virus virus = 6;
+    // 自定义资源
+    repeated int32 resources = 7 [packed = true]; 
+    // 通用buffs
+    repeated uint32 buffs = 8 [packed = true];
+    // 复活信息
+    repeated AdventureRebirth rebirths = 9;
+    // 建筑功能
+    repeated AdventureBuilding buildings = 10;
+    // 累计奖励(除代码外)
+    repeated Item records = 11;
+    // 最佳耗时
+    uint32 best = 12;
+    // 扩散倒计时
+    uint32 countdown = 13;
+    // 当前耗时
+    uint32 duration = 14;
+    // 当前蔓延
+    repeated AdventureGrid diffusion = 15;
+    // 当前步数
+    uint32 step = 16;
+}
+
+
+
+
+message ReqEnterAdventureDup {
+	// 下一个位置(重进当前位置)
+    AdventurePos pos = 1;
+}
+
+
+
+message ResEnterAdventureDup {
+	// 当前位置
+    AdventurePos pos = 1;
+    // 出站阵容列表(包括基础属性,继承属性)
+    repeated Hero heroes = 2;
+    // 战斗场景
+    uint32 battle = 3;
+    // 掉落数据
+    Reward drops = 4;
+    // 格子状态
+    uint32 status = 5;
+}
+
+
+
+message ReqFinishAdventureDup {
+    // 结果(失败=0 胜利=1)
+    uint32 result = 1;
+    // 结算阵容属性(继承血量)
+    repeated Hero heroes = 2;
+    // 拾取数据
+    Reward picks = 3;
+    // 战斗耗时
+    uint32 duration = 4;
+    // 自定义资源
+    repeated int32 resources = 5 [packed = true]; 
+    // 使用复活
+    uint32 rebirth = 6;
+    // 击杀怪物(数量)
+    uint32 monster = 7;
+    // 击杀boss(数量)
+    uint32 boss = 8;
+    // 杀手
+    uint32 killer = 9;
+    // 击杀怪物(id)
+    repeated uint32 monsters = 10 [packed = true];
+    // 战损
+    repeated Item losses = 11;
+}
+
+
+
+message ResFinishAdventureDup {
+	// 结果(失败=0 胜利=1)
+    uint32 result = 1;
+    // 奖励数据
+    Reward reward = 2;
+    // 建筑列表
+    repeated AdventureBuilding buildings = 3;
+    // 通关(本关继续=0 前往下关=1 通关结算=2)
+    uint32 next = 4;
+}
+
+
+
+message ReqTakeAdventureSupply {
+	// 补给id
+    uint32 id = 1;
+}
+
+
+
+message ResTakeAdventureSupply {
+	// 补给id
+    uint32 id = 1;
+    // 阵容(可选)
+    Lineup lineup = 2;
+    // 奖励数据(可选)
+    Reward reward = 3;
+    // 随机事件(增量更新)
+    AdventureEvent event = 4;
+}
+
+
+
+message ReqUnlockAdventureSupply {
+	// 建筑id
+    uint32 id = 1;
+    // 操控助手
+    uint32 operator = 2;
+}
+
+
+
+message ResUnlockAdventureSupply {
+	// 建筑id
+    uint32 id = 1;
+    // 阵容(可选)
+    Lineup lineup = 2;
+}
+
+
+
+message ReqGetAdventureVerdor {
+    // 商店Id
+    uint32 verdor = 1;
+}
+
+
+message ResGetAdventureVerdor {
+    // 折扣(负数) 加倍(正数)
+    int32 discount = 1;
+    // 商品列表
+    repeated AdventureVerdorGoods goods = 2;
+}
+
+
+
+message ReqBuyAdventureGoods {
+	// 商店Id
+    uint32 verdor = 1;
+	// 商品Id
+    uint32 goods = 2;
+}
+
+
+
+message ResBuyAdventureGoods {
+    // 商品Id
+    uint32 goods = 1;
+    // 剩余数量
+    uint32 count = 2;
+	// 物品Id
+    repeated Item items = 3;
+}
+
+
+
+message ReqGetAdventureCodeStore {
+	// 建筑id
+	uint32 id = 1;
+}
+
+
+
+message ResGetAdventureCodeStore {
+	// 建筑id
+	uint32 id = 1;
+	// 代码减少数量
+    int32 cut = 2;
+    // 奖励代码
+    repeated Code codes = 3;
+    // 刷新剩余次数
+    int32 count = 4;
+    // 刷新消耗材料
+    Property material = 5;
+}
+
+
+
+message ReqSelectAdventureCode {
+	// 建筑id
+	uint32 id = 1;
+	// 栏位置下标(1-3)
+    uint32 slot = 2;
+}
+
+
+
+message ResSelectAdventureCode {
+	// 栏位置下标(1-3)
+    uint32 slot = 1;
+    // 代码道具
+    Code code = 2;
+
+}
+
+
+
+message ReqGetAdventureCodeFoundry {
+	// 建筑id
+    uint32 id = 1;
+}
+
+
+
+message ResGetAdventureCodeFoundry {
+    // 建筑id
+    uint32 id = 1;
+    // 可升星代码sid
+    repeated uint32 codes = 2 [packed = true];
+}
+
+
+
+message ReqUpgradeAdventureCode {
+    // 建筑id
+    uint32 id = 1;
+    // 代码sid
+    uint32 code = 2;
+}
+
+
+
+message ResUpgradeAdventureCode {
+    // 建筑id
+    uint32 id = 1;
+    // 升级情况
+    repeated AdventureCode codes = 2;
+}
+
+
+
+message ResUpdateAdventureVirus {
+	// 拓荒病毒(增量更新)
+    Virus virus = 1;
+    // 随机事件(增量更新)
+    AdventureEvent event = 2;
+}
+
+
+
+message ReqSelectAdventureEvent {
+	// 事件id
+    uint32 event = 1;
+    // 选项(1-2)
+    uint32 option = 2;
+    // 内部选择器(1-N)
+    uint32 index = 3;
+}
+
+
+
+message ResSelectAdventureEvent {
+    // 事件路径
+    repeated AdventureEvent path = 1;
+
+    //新增的代码列表
+    repeated Item rewards = 2;
+
+    //减少的代码列表
+    repeated Item reductions = 3;
+
+    //升/降星代码列表
+    repeated AdventureCode changes = 4;
+
+    //损失的病毒列表
+    repeated uint32 virus = 5 [packed = true];
+
+}
+
+
+
+message ResUpdateAdventureResult {
+	// 拓荒结果(0=失败 1=成功)
+    int32 result = 1;
+    // 拓荒本次最佳(0/1)
+    uint32 best = 2;
+    // 拓荒本次耗时
+    uint32 duration = 3;
+    // 奖励物品
+    repeated Item items = 4;
+    // 拓荒最佳进度(关卡ID)
+    uint32 depth = 5;
+    // 成就值(Key/Value)
+    repeated AdventureAchievement achievements = 6;
+    // 拓荒最佳耗时
+    uint32 optimums = 7;
+}
+
+// 成就Key
+// 深潜胜利次数        = 30004
+// 深潜完成次数        = 30005
+// 击杀怪物            = 30013
+// 击杀BOSS            = 30014
+// 击杀怪物(累计)       = 30015
+// 击杀BOSS(累计)       = 30016
+
+// 怪物杀死(200000-300000)
+// 怪物ID+200000
+
+
+
+message ReqGiveupAdventureProgress {
+    // 占位符
+    uint32 params = 1;
+}
+
+
+
+message ResRecoverAdventureRebirth {
+	 // 复活信息
+    repeated AdventureRebirth rebirths = 1;
+}
+
+
+
+message ReqRefreshAdventureCodeStore {
+	// 建筑id
+	uint32 id = 1;
+}
+
+
+
+message ResRefreshAdventureCodeStore {
+	// 建筑id
+	uint32 id = 1;
+	// 代码减少数量
+    int32 cut = 2;
+    // 奖励代码
+    repeated Code codes = 3;
+    // 消耗剩余次数
+    int32 count = 4;
+    // 消耗材料
+    Property material = 5;
+   
+}
+
+
+
+message ResUpdateAdventureGrid {
+	// 更新改变
+    repeated AdventureGrid grids = 1; 
+    // 扩散倒计时
+    uint32 countdown = 2;
+}
+
+
+
+message ReqGetAdventureCard {
+	
+}
+
+
+
+message ResGetAdventureCard {
+	// 手牌数据
+	repeated AdventureCard cards = 1;
+}
+
+
+
+message ResUpdateAdventureCard {
+	// 添加的手牌
+	repeated AdventureCard additions = 1;
+	// 减少的手牌(uid)
+    repeated uint32 reductions = 2 [packed = true];
+}
+
+
+
+message ReqUseAdventureCard {
+	//sid
+    uint32 sid = 1;
+    //uid
+    uint32 uid = 2;
+    // Pos坐标
+    AdventurePos index = 3;
+}
+
+
+
+message ResUseAdventureCard {
+	//sid
+    uint32 sid = 1;
+    //uid
+    uint32 uid = 2;
+	//当前使用次数
+	uint32 use = 3;
+     // 阵容(可选)
+    Lineup lineup = 4;
+}
+
+
+
+// 用于进入下一关卡
+message ReqEnterAdventureNext {
+	
+}
+
+
+
+
+message ResEnterAdventureNext {
+    
+}
+
+
+
+
 message ReqHeartBeat {
 
 }
@@ -2762,6 +3585,12 @@ message ResKickPlayer {
     string reason = 1;
      // 封禁时间 -1是永封
     string banTime = 2;
+}
+
+
+message ResServerError {
+	// 请求协议号
+    uint32 packetId = 1;
 }
 
 
@@ -2835,6 +3664,121 @@ message Achievement {
     uint32 status = 2;
     // 成就进度(按需定义看成就表中的目标参数)
     uint32 progress = 3;
+}
+
+
+
+message AdventureAchievement {
+    // 成就id
+    uint32 id = 1;
+    // 成就进度
+    uint32 progress = 2;
+}
+
+
+
+message AdventureBuilding {
+    // 建筑id
+    uint32 id = 1;
+    // 建筑功能
+    uint32 type = 2;
+    // 建筑状态(0=未解锁 1=可使用 2=已使用)
+    uint32 status = 3;
+    // 条件索引(0表示无条件)
+    uint32 condition = 4;
+}
+
+
+
+message AdventureCard {
+    // sid
+    uint32 sid = 1;
+    // uid
+    uint32 uid = 2;
+    // 使用过的次数
+    uint32 use = 3;
+}
+
+
+message AdventureCode {
+    // 升级前
+    Item item = 1;
+    // 升级后
+    Item code = 2;
+}
+
+
+
+message AdventureEvent {
+    // 事件id
+    uint32 id = 1;
+    // 选择项
+    uint32 option = 2;
+    // 奖励(如果有)
+    Reward reward = 3;
+    // 参数
+    repeated uint32 params = 4 [packed = true];
+}
+
+
+
+message AdventureGrid {
+    // 坐标s
+    AdventurePos pos = 1;
+    // 状态
+    uint32 status = 2;
+    // 战斗
+    uint32 battle = 3;
+    // 房间
+    uint32 room = 4;
+    // 迷雾
+    uint32 fog = 5;
+    // key
+    string index = 6;
+    // 类型
+    uint32 type = 7;
+    // 地图
+    uint32 map = 8;
+}
+
+
+
+message AdventureMap {
+    // 关卡
+    uint32 level = 1;
+    // 地图id
+    uint32 map = 2;
+    // 地图格子
+    repeated AdventureGrid grids = 3;
+}
+
+
+
+message AdventurePos {
+    // 坐标s
+    int32 s = 1;
+    // 坐标r
+    int32 r = 2;
+    // 坐标q
+    int32 q = 3;
+}
+
+
+
+message AdventureRebirth {
+    // 已使用
+    uint32 used = 1;
+    // 效果
+    uint32 value = 2;
+}
+
+
+
+message AdventureVerdorGoods {
+    // 商品id
+    uint32 id = 1;
+    // 商品数量
+    uint32 count = 2;
 }
 
 
@@ -2935,6 +3879,20 @@ message BagBattleItem {
     uint32 direction = 3;
     // 坐标
     uint32 pos = 4;
+    // 影响这个道具的id
+    repeated uint32 effectIds = 5 [packed = true];
+
+}
+
+
+
+message BagBattleItemDrop {
+      //道具uid
+	uint32 uid = 1;
+    // 地图格子
+    uint32 x = 2;
+    //地图格子
+    uint32 y = 3;
 }
 
 
@@ -2983,6 +3941,41 @@ message BagBattleMonster {
     uint32 x = 3;
     // 坐标y(1-n)
     uint32 y = 4;
+}
+
+
+
+message BossBattleHero {
+    // id
+    uint32 id = 1;
+    // 当前血量 
+    uint32 blood = 2;
+}
+
+
+
+message BossBattleLevel {
+    // 关卡id
+    uint32 id = 1;
+    // 当前积分 
+    uint32 point = 2;
+}
+
+
+
+message BossBattleMonster {
+    // 怪物id
+    uint32 id = 1;
+    // 当前血量 
+    uint32 blood = 2;
+    // 血量上限
+    uint32 bloodMax = 3;
+    // 波次
+    uint32 batch = 4;
+    // 标签
+    uint32 label = 5;
+    // uid
+    uint32 uid = 6;
 }
 
 
@@ -3074,7 +4067,7 @@ message Gacha {
     // 物品id
     uint32 sid = 1;
     // 积分
-    uint32 point = 2;
+    Item point = 2;
     // 碎片
     uint32 fragment = 3;
 }
@@ -3177,6 +4170,10 @@ message Item {
     int32 lock = 12;
     // 来源(掉落时为怪物ID)
     int32 origin = 13;
+    // 动态属性
+    repeated Property attrs = 14;
+    // 候选属性
+    Property reserve = 15;
 }
 
 
@@ -3275,6 +4272,8 @@ message Property {
     int32 value = 2;
     // 变化值
     int32 param = 3;
+    // id(相关功能使用)
+    uint32 id = 4;
 }
 
 

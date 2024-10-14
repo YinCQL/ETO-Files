@@ -5,6 +5,8 @@
         "AreaName": "上城·科技区",
         "AreaType": 1,
         "AreaInfo": "坎-科技",
+        "AreaBelongID": "",
+        "PlaceTag": "",
         "PlaceTalkID": 0,
         "CharacterID": 0
     },
@@ -14,6 +16,8 @@
         "AreaName": "上城·工业区",
         "AreaType": 1,
         "AreaInfo": "艮-工业",
+        "AreaBelongID": "",
+        "PlaceTag": "",
         "PlaceTalkID": 0,
         "CharacterID": 0
     },
@@ -23,6 +27,8 @@
         "AreaName": "上城·文教区",
         "AreaType": 1,
         "AreaInfo": "震-文教",
+        "AreaBelongID": "",
+        "PlaceTag": "",
         "PlaceTalkID": 0,
         "CharacterID": 0
     },
@@ -32,6 +38,8 @@
         "AreaName": "上城·金融区",
         "AreaType": 1,
         "AreaInfo": "巽-金融",
+        "AreaBelongID": "",
+        "PlaceTag": "",
         "PlaceTalkID": 0,
         "CharacterID": 0
     },
@@ -41,6 +49,8 @@
         "AreaName": "下城区·南",
         "AreaType": 1,
         "AreaInfo": "下城区·南，描述。",
+        "AreaBelongID": "",
+        "PlaceTag": "",
         "PlaceTalkID": 0,
         "CharacterID": 0
     },
@@ -50,6 +60,8 @@
         "AreaName": "下城区·北",
         "AreaType": 1,
         "AreaInfo": "下城区·北，描述。",
+        "AreaBelongID": "",
+        "PlaceTag": "",
         "PlaceTalkID": 0,
         "CharacterID": 0
     },
@@ -59,6 +71,8 @@
         "AreaName": "城墙区",
         "AreaType": 1,
         "AreaInfo": "靠近城墙的区域，始终弥漫着稀薄的白噪，议会法律未曾涉足这里。",
+        "AreaBelongID": "",
+        "PlaceTag": "",
         "PlaceTalkID": 0,
         "CharacterID": 0
     },
@@ -252,54 +266,26 @@
         "PlaceTalkID": 19,
         "CharacterID": 0
     },
-    "27": {
-        "ID": 27,
-        "AreaID": "C001",
-        "AreaName": "辉夜",
-        "AreaType": 4,
-        "AreaInfo": "",
-        "PlaceTalkID": 1008,
-        "AssociatedID": "P002",
-        "CharacterID": 1008
+    "1001": {
+        "ID": 1001,
+        "AreaID": "P1001",
+        "AreaName": "次神模拟战",
+        "AreaType": 5,
+        "AreaInfo": "这里是地点的描述，等待文案",
+        "AreaBelongID": "",
+        "PlaceTag": "",
+        "PlaceTalkID": 0,
+        "CharacterID": 0
     },
-    "28": {
-        "ID": 28,
-        "AreaID": "C002",
-        "AreaName": "孔雀",
-        "AreaType": 4,
-        "AreaInfo": "",
-        "PlaceTalkID": 1007,
-        "AssociatedID": "P004",
-        "CharacterID": 1007
-    },
-    "29": {
-        "ID": 29,
-        "AreaID": "C003",
-        "AreaName": "夜见",
-        "AreaType": 4,
-        "AreaInfo": "",
-        "PlaceTalkID": 1009,
-        "AssociatedID": "P010",
-        "CharacterID": 1009
-    },
-    "30": {
-        "ID": 30,
-        "AreaID": "C004",
-        "AreaName": "杨",
-        "AreaType": 4,
-        "AreaInfo": "",
-        "PlaceTalkID": 1010,
-        "AssociatedID": "P013",
-        "CharacterID": 1010
-    },
-    "31": {
-        "ID": 31,
-        "AreaID": "C005",
-        "AreaName": "纯枫",
-        "AreaType": 4,
-        "AreaInfo": "",
-        "PlaceTalkID": 1012,
-        "AssociatedID": "P015",
-        "CharacterID": 1012
+    "1002": {
+        "ID": 1002,
+        "AreaID": "P1002",
+        "AreaName": "密室逃脱",
+        "AreaType": 5,
+        "AreaInfo": "这里是地点的描述，等待文案",
+        "AreaBelongID": "",
+        "PlaceTag": "",
+        "PlaceTalkID": 0,
+        "CharacterID": 0
     }
 }

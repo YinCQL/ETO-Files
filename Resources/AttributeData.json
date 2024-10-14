@@ -68,6 +68,23 @@
         "Name": "无视防御比例",
         "Key": "DefsIgnorePer"
     },
+    "107": {
+        "ID": 107,
+        "Name": "攻击",
+        "Key": "AtkTotalPer1"
+    },
+    "108": {
+        "ID": 108,
+        "Name": "攻击",
+        "Key": "AtkTotalPer2"
+    },
+    "109": {
+        "ID": 109,
+        "Name": "攻击",
+        "Key": "AtkTotalModify",
+        "NumType": 1,
+        "NumDecimal": 0
+    },
     "200": {
         "ID": 200,
         "Name": "防御",
@@ -98,6 +115,23 @@
         "ID": 204,
         "Name": "防御",
         "Key": "DefTotalPer"
+    },
+    "205": {
+        "ID": 205,
+        "Name": "防御",
+        "Key": "DefTotalPer1"
+    },
+    "206": {
+        "ID": 206,
+        "Name": "防御",
+        "Key": "DefTotalPer2"
+    },
+    "207": {
+        "ID": 207,
+        "Name": "防御",
+        "Key": "DefTotalModify",
+        "NumType": 1,
+        "NumDecimal": 0
     },
     "300": {
         "ID": 300,
@@ -140,7 +174,19 @@
     "306": {
         "ID": 306,
         "Name": "体能百分比",
-        "Key": "HpModifyPer"
+        "Key": "HpTotalPer1"
+    },
+    "307": {
+        "ID": 307,
+        "Name": "体能百分比",
+        "Key": "HpTotalPer2"
+    },
+    "308": {
+        "ID": 308,
+        "Name": "体能",
+        "Key": "HpTotalModify",
+        "NumType": 1,
+        "NumDecimal": 0
     },
     "400": {
         "ID": 400,
@@ -200,9 +246,7 @@
     "603": {
         "ID": 603,
         "Name": "暴击增伤",
-        "Key": "CritdamModify",
-        "NumType": 1,
-        "NumDecimal": 0
+        "Key": "CritdamModify"
     },
     "604": {
         "ID": 604,
